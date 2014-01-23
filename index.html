@@ -1,52 +1,76 @@
-<!DOCTYE html>
+<!DOCTYPE html>
 <html lang="es">
+
 	<head>
-		<meta charset="utf-8"/>
-		<meta description="Curso 2014"/>
-		<title>Curso mejorando.la 2014</title>
+		<meta charset="utf-8">
+		<title>Movicun</title>
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+		<link rel="stylesheet"  href="css/estilos.css">
+		<link rel="stylesheet"  href="css/normalize.css">
+		<!--[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<!endif]-->
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.roundabout.js"></script>
+		<script src="js/jquery.roundabout-shapes.js"></script>
+		<script src="js/funciones.js"></script>
 	</head>
 	<body>
-		<header>
-			<figure id="logo">
-			<img src="img/logo.png"/>
-			</figure>
-			<h1> Puls2014 </h1>
-			<figure id="avatar">
-				<img src="img/avatar.jpg"/>
-			</figure>
-		</header>
-		<nav>
-			<ul>
-				<li><a href="#">Python</a></li>
-				<li><a href="#">HTML5</a></li>
-				<li><a href="#">JAvascript</a></li>
-				<li><a href="#">Django</a></li>
-				<li id="publicar"><a href="#">publicar</a></li>
-			</ul>
-		</nav>
-		<section id="contenido">
-			<article class="item">
-				<figure class="imagen_item">
-					<img src="img/pony.jpg"/>
-				</figure>
-				<h2 class="titulo_item"><a href="">Titulo del articulo</a></h2>
-				<p class="autor_item">Faustino Loeza Perez</p>
-				<p class="datos_item">
-					<a href="#" class="tag_item">Pony</a>
-					<span class="fecha_item">Hace 5 minutos
-					</span>
-					<a href="#" class="tag_item">3</a>
-					<a href="#" class="tag_item"></a>
-				</p>
-			<p class="votacion">
-				<a href="" class="up"></a>696
-				<a href="" class="down"></a>
-			</p>
-			</article>
+		<section id="buscador">
+			<a href=""><figure class="banderas">
+				<img  src="img/mexico.png">
+			</figure></a>
+			<a href=""><figure class="banderas">
+				<img  src="img/estadosu.png">
+			</figure></a>
+			<input id="superior"type="text" placeholder="Ingresa tu duda">
 		</section>
-		<footer>
-			<p><strong>Powered by Pony</strong></p>
-			<p>Mejorando.la 2014</p>
-		</footer>
+		<button id="menu">Menu</button>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html">INICIO</a></li>
+					<li><a href="beneficios.html">BENEFICIOS</a></li>
+					<li><a href="preguntas.html">PREGUNTAS</a></li>
+					<li><a href="contacto.html">CONTACTO</a></li>
+				</ul>
+			</nav>
+		</header>
+	<figure>
+		<img id="logom" src="img/logo.png">
+		<figcaption>
+			<h2 id="loguito">La nueva tarjeta prepago de transporte urbano.</h2>
+		</figcaption>
+	</figure>
+
+	<div id="galeria">
+			<div id="flecha" class="next"></div>
+			<div id="flecha1" class="prev" ></div>
+				<ul id="imagenes">
+				  		<li><img src="img/general.png" alt="">
+			<p class="rota">Tarjeta para todo tipo de usuario,la puedes adquirir en centros de emición y es la unica tarjeta con la que puedes pagar las veces que necesites dentro de la misma unidad.</p></li>
+				  		<li><img src="img/terceraedad.png" alt="">
+			<p class="rota">Esta tarjeta se emitirá en coordinación con el <strong>DIF</strong> y proporcionara sus veneficios unicamente a las personas que esten inscritas al programa <strong>INAPAM</strong>.</p></li>
+				  		<li><img src="img/estudiante.png" alt="">
+			<p class="rota">Se proporcionara en coordinacion con la <strong>CONFEQ</strong>, y tendra un costo por viaje de $3.00 Pesos M.N. exclusivamente en Zona Urbana de Lunes a Viernes en periodos escolares.</p></li>
+				  		<li><img src="img/colaborador.png" alt="">
+			<p class="rota">Uso exclusivo de los empleados de Turicun.</p></li>
+				</ul>
+		</div>
+	<section id="cuatro">
+		<ACRONYM title="CLICK para más inforación">
+		  <article id="donde"><img class="agranda" src="img/naranja.jpg">
+		  	<img class="prueba" src="img/prueba.png">
+		  </article>
+		  <article id="uso"><img class="agranda" src="img/verde.jpg">
+		  	<img class="prueba" src="img/prueba.png">
+		  </article>
+		  <article id="como"><img class="agranda" src="img/cyan.jpg">
+		  	<img class="prueba" src="img/prueba.png">
+		  </article>
+		</ACRONYM>
+	</section>
+	<footer><h5>Movicun 2013, Cancún Quintana Roo, México.</h5></footer>
 	</body>
 </html>

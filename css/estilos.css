@@ -1,0 +1,410 @@
+
+body
+{
+	background:url("../img/fondo.png") repeat-x;
+	color: rgba(255,255,255,1);
+	font-family: Arial;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+#otro
+{
+	background:url("../img/fondo2.png") repeat-x;
+	color: rgba(255,255,255,1);
+	font-family: Arial;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+footer
+{
+	background: rgba(165,243,254,0.6);
+	height: 100%;
+	color: black;
+	border:1px solid rgba(165,243,254,0.6);
+	width: 100%;
+}
+header
+{
+	background:url("../img/menu.png") no-repeat 50% center;
+	height: 45px;
+	margin-top: 0px;
+}
+
+h2 
+{
+	margin: 8px 0px;
+	padding: 0px;
+}
+nav ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+nav ul li
+{
+	display: inline-block;
+	list-style-type: none;
+	vertical-align: top;
+	margin: 1em 0;
+}
+nav ul li a
+{
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0px 1em;
+	text-decoration: none;
+}
+
+#buscador
+{
+	background:white;
+	height: 40px;
+}
+.banderas
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 3%;
+	margin: 10px 20px;
+}
+#superior
+{
+	margin: 10px 20px;
+	opacity: 0.8;
+}
+#buscador img
+{
+	width: 100%;
+	height: 20px;
+}
+#galeria
+{
+	height:400px;
+	margin-top: 10px;
+	margin: 0 auto;
+	width: 70%;
+}
+
+#flecha{
+	margin-top: 150px;
+	margin-right: 5px;	
+	float: right;
+	width: 50px;
+	height: 50px;
+	opacity: .4;
+	background: url(../img/flecha.png) no-repeat;
+	-webkit-transition:.2s all;
+	-moz-transition:.2s all;
+}
+#flecha:hover{
+	opacity: 1;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.15);
+
+}
+
+#flecha1{
+	margin-top: 150px;
+	margin-left: 5px;
+	float: left;
+	width: 62px;
+	height: 63px;
+	opacity: .4;
+	background: url(../img/flecha1.png) no-repeat;
+	-webkit-transition:.2s all;
+	-moz-transition:.2s all;
+}
+#flecha1:hover{
+	opacity: 1;
+	transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+}
+#general
+{
+	width: 0px;
+	display: none;
+	height: 0px;
+}
+#cuatro
+{
+	width: 100%;
+}
+#tarjetas
+{
+	color: black;
+	display: none;
+	background: rgba(125,125,125,0.5);
+	width: 60%;
+	margin: 0 auto;
+}
+#uno,#dos,#tres
+{
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	padding: 5px;
+	margin: 0px;
+	text-align: left;
+}
+#donde,#uso,#como
+{
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+	width: 26%;
+}
+
+#logom 
+{
+	width: 33%;
+	padding:0px;
+	margin: 0px;
+}
+#logo 
+{
+	width: 22%;
+	padding:0px;
+	margin: 0px 80% 0px 20%;
+}
+#precio
+{
+	width: 60%;
+	opacity: .9;
+}
+#dondeA
+{
+	width: 70%;
+	opacity: .9;
+}
+#pasos
+{
+	width: 70%;
+	opacity: .9;
+}
+#preguntas
+{
+	color: black;
+	padding:0px;
+	width: 60%;
+	margin: 40px auto;
+	text-align: left;
+	background: rgba(163,163,163,0.2);
+}
+.prueba
+{
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px auto;
+}
+.usoletra
+{
+	color: rgba(3,94,129,0.9);
+}
+.rota
+{
+	display: none;
+	margin: -60px -10px;
+}
+#menu
+{
+	width: 40%;
+	margin: 8px 0;
+	height: 30px;
+	background: white;
+	display: none;
+}
+.agranda
+{
+	width: 100%;
+}
+/***********************************************************************************************/
+.roundabout-holder 
+{
+    width:60%;
+	height:300px;
+	margin:0 auto;
+
+ }
+.roundabout-moveable-item 
+{
+	padding-top:50px;
+	list-style-type:None;
+ 	width: 420px;
+	height: 390px;
+	cursor: pointer;
+ }
+.roundabout-moveable-item img
+{
+		width:100%;
+		border-radius: 10px 10px 10px 10px;
+}
+.roundabout-in-focus 
+ {
+      cursor: auto;
+      color: black;
+ }
+ .roundabout-in-focus .rota
+ {
+      display: block;
+      font-size: 1em;
+ }
+ /***********************************************************************************************/
+
+@media screen and (max-width: 480px)
+
+
+{
+	header
+	{
+		background:rgb(18,150,185);
+	}
+	.banderas
+{
+	width: 10%;
+	margin: 10px 0px;
+}
+	#superior
+	{
+		margin: 10px 0px;
+	}
+	#logom 
+	{
+		width: 70%;
+		padding:0px;
+		margin: 0px;
+	}
+	#logo 
+	{
+		width: 70%;
+		padding:0px;
+		margin: 0px;
+	}
+	#donde,#uso,#como
+	{
+		width: 90%;
+	}
+	.agranda
+	{
+		width: 100%;
+	}
+	.roundabout-holder 
+	{
+		height:180px;
+	 }
+	.roundabout-moveable-item img
+	{
+		width:60%;
+	}
+	.roundabout-moveable-item 
+	{
+		height: 235px;
+		padding-top: 0px;
+	}
+	
+	nav ul li a
+	{
+		margin: 1em .2em;
+	}
+	#galeria
+	{
+		height: auto;
+	}
+	#flecha,#flecha1
+	{
+		display: none;
+	}
+	#loguito
+	{
+		margin-bottom: 2em;
+		font-size: 20px;
+	}
+	#cuatro
+	{
+		margin-top: 10px;
+	}
+	#galeria
+	{
+		margin-bottom: 75px;
+	}
+	#uno,#dos,#tres
+	{
+		
+		min-width: 90%;
+		padding: 0em;
+		margin:0px;
+	}
+	#tarjetas
+	{
+		width: 100%;
+
+	}
+
+	#preguntas
+	{
+		width: 90%;
+	}
+	#nombre,#email,#mensaje
+	{
+		width: 90%;
+	}
+	.rota
+	{
+		width: 70%;
+		margin: -50px auto;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 320px)
+{
+	#menu
+	{
+		display: block;
+		margin: 0 auto;
+	}
+	nav ul li
+	{
+		width: 100%;
+		margin: 0;	
+		background: rgba(17,147,182,0.9);
+		border: 1px solid rgba(3,95,128,0.9);
+		padding: 7px;
+		box-shadow: 0px 0px 20px white inset;
+		-webkit-box-shadow: 0px 0px 20px white inset;
+	}
+	nav ul li a
+	{
+		margin: 0;
+	}
+	nav ul
+	{
+		display: none;
+	}
+	header
+	{
+		height: 0px;
+		display: none;
+		height: auto;
+	}
+	#otro
+	{
+		background:url("../img/fondo3.png") repeat-x;
+	}
+	.rota
+	{
+		width: 60%;
+		margin: -50px auto;
+		height: auto;
+	}
+	#galeria
+	{
+		margin-bottom: 100px;
+	}
+}
