@@ -157,7 +157,7 @@ nav ul li a
 	display: inline-block;
 	vertical-align: top;
 	cursor: pointer;
-	width: :;%;
+	width: 22%;
 }
 
 #logom 
@@ -351,7 +351,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
  }
  /***********************************************************************************************/
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 480px)
 
 
 {
