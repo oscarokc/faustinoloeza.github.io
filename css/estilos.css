@@ -177,6 +177,11 @@ nav ul li a
 	width: 60%;
 	opacity: .9;
 }
+#signo
+{
+	margin-top: 2%;
+	width: 5%;
+}
 #dondeA
 {
 	width: 70%;
@@ -198,7 +203,7 @@ nav ul li a
 }
 .prueba
 {
-	width: 70%;
+	width: 94%;
 	display: inline-block;
 	vertical-align: top;
 	margin: 0px auto;
@@ -223,6 +228,95 @@ nav ul li a
 .agranda
 {
 	width: 100%;
+}
+
+.contact_form h2 {
+    background: rgba(165,243,254,0.6);
+    border-radius: 5px;
+    font-family: calibri;
+    font-size: 20px;
+    padding: 5px;
+    text-shadow: 1px 1px 10px black;
+    width: 90%;
+    margin: 0 auto;
+
+}
+/*--- estilos para los ul y li del formulario ---*/
+.contact_form ul {
+    width:40%;
+    list-style-type:none;
+	padding:0px;
+	margin: 0 auto;
+
+}
+.contact_form li{
+	padding:12px; 
+	border-bottom:1px solid #eee;
+	position:relative;
+} 
+.contact_form label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: calibri;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+.contact_form input {
+	height:20px; 
+	width:60%; 
+	padding:5px 8px;
+}
+.contact_form textarea {
+	padding:8px; 
+	width:60%;
+}
+.contact_form button {
+	margin-left:90px;
+}
+ 
+/*----- estilos visuales de los elementos --------*/
+ 
+.contact_form input, .contact_form textarea { 
+	border:1px solid :;
+	box-shadow: 0px 0px 3px #07ac8f, 0 4px 8px #ccc inset;
+	border-radius:4px;
+	color: #0499af;
+	font-size: 12px;
+	padding-right:30px;
+	-moz-transition: padding .25s; 
+	-webkit-transition: padding .25s; 
+	-o-transition: padding .25s;
+	transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+	background: #c8f4e9; 
+	padding-right:80px;
+}
+
+/* === Estilos del boton de Envio === */
+button.submit {
+    padding: 9px 17px;
+   font-family: Helvetica,calibri, Arial, sans-serif;
+   font-weight: bold;
+   line-height: 1;
+   color: #10b0cd;
+   border: none;
+   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+   border-radius: 10px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+button.submit:hover {
+opacity:.55;
+cursor: pointer; 
+color: #00fffc;
+}
+button.submit:active {
+border: 1px solid #10b0cd;
+box-shadow: 0 0 10px 5px #00fffc inset; 
 }
 /***********************************************************************************************/
 .roundabout-holder 
@@ -360,6 +454,10 @@ nav ul li a
 		margin: -50px auto;
 		height: auto;
 	}
+	.contact_form ul
+	{
+    	width:100%;
+	}
 }
 
 @media screen and (max-width: 320px)
@@ -407,4 +505,15 @@ nav ul li a
 	{
 		margin-bottom: 100px;
 	}
+	#signo
+	{
+		margin-top: 6%;
+		width: 15%;
+	}
+	.contact_form ul 
+	{
+   	 width:100%;
+	}
 }
+
+
