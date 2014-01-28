@@ -87,3 +87,45 @@ nav ul li a
 	text-align: left;
 }
 
+@media screen and (min-width: 600px)
+{
+
+	header
+	{
+		background-size: 25%;
+	}
+	.contenido
+	{
+		width: 70%;
+		margin: 0 auto;
+	}
+	nav ul li
+	{
+		display: inline-block;
+		width: 20%;
+	}
+}
+
+@media screen and (min-width: 1000px)
+{
+	
+	header
+	{
+		background-size: 20%;
+	}
+	.contenido
+	{
+		width: 60%;
+		margin: 0 auto;
+	}
+	nav ul li
+	{
+		display: inline-block;
+		width: 20%;
+	}
+
+}
+
+
+
+
