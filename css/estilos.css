@@ -1,9 +1,9 @@
-
+@import url(http://fonts.googleapis.com/css?family=Rambla);
 body
 {
 	background:url("../img/fondo.png") repeat-x;
 	color: rgba(255,255,255,1);
-	font-family: Arial;
+	font-family: 'Rambla', sans-serif;
 	font-size: 16px;
 	margin: 0 auto;
 	padding: 0;
@@ -13,7 +13,7 @@ body
 {
 	background:url("../img/fondo2.png") repeat-x;
 	color: rgba(255,255,255,1);
-	font-family: Arial;
+	font-family: 'Rambla', sans-serif;
 	font-size: 16px;
 	margin: 0 auto;
 	padding: 0;
@@ -168,7 +168,7 @@ nav ul li a
 }
 #logo 
 {
-	width: 22%;
+	width: 25%;
 	padding:0px;
 	margin: 0px 80% 0px 20%;
 }
@@ -192,7 +192,7 @@ nav ul li a
 	width: 70%;
 	opacity: .9;
 }
-#preguntas
+.preguntas
 {
 	color: black;
 	padding:0px;
@@ -200,6 +200,8 @@ nav ul li a
 	margin: 40px auto;
 	text-align: left;
 	background: rgba(163,163,163,0.2);
+	display: inline-block;
+	vertical-align: top;
 }
 .prueba
 {
@@ -210,7 +212,19 @@ nav ul li a
 }
 .usoletra
 {
-	color: rgba(3,94,129,0.9);
+	color: white;
+	background: rgb(16,147,182);
+	padding: 8px;
+	box-shadow: 0 0 20px rgb(3,94,129) inset;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: 'Rambla', sans-serif;
+}
+.preguntas p
+{
+	font-weight: normal;
+	font-size: 16px;
+	font-family: 'Rambla', sans-serif;
 }
 .rota
 {
@@ -219,10 +233,9 @@ nav ul li a
 }
 #menu
 {
-	width: 40%;
+	width: 40px;
 	margin: 8px 0;
-	height: 30px;
-	background: white;
+	height: 40px;
 	display: none;
 }
 .agranda
@@ -351,7 +364,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
  }
  /***********************************************************************************************/
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 800px)
 
 
 {
@@ -376,13 +389,12 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	}
 	#logo 
 	{
-		width: 70%;
-		padding:0px;
-		margin: 0px;
+		width: 50%;
+		margin: 0 0 22px 0;
 	}
 	#donde,#uso,#como
 	{
-		width: 90%;
+		width: 70%;
 	}
 	.agranda
 	{
@@ -440,7 +452,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 
 	}
 
-	#preguntas
+	.preguntas
 	{
 		width: 90%;
 	}
@@ -460,22 +472,33 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	}
 }
 
-@media screen and (max-width: 320px)
+@media screen and (max-width: 400px)
 {
 	#menu
 	{
+		background:url("../img/menumovil.png") no-repeat;
+		box-shadow: 0 0 10px black;
+		border-radius: 10%;
 		display: block;
 		margin: 0 auto;
+		position: absolute;
+		right: 0;
+		margin:0px 5px 0 0;
+		transition:.3s all;
+	}
+	#menu:hover
+	{
+		-webkit-transform: scale(1.2,1.2);
 	}
 	nav ul li
 	{
-		width: 100%;
+		border: 1px solid #1e99ac;
 		margin: 0;	
-		background: rgba(17,147,182,0.9);
-		border: 1px solid rgba(3,95,128,0.9);
+		background: rgba(37,188,211,0.9);
 		padding: 7px;
-		box-shadow: 0px 0px 20px white inset;
-		-webkit-box-shadow: 0px 0px 20px white inset;
+		box-shadow: 0px 0px 20px rgb(6,129,48) inset;
+		-webkit-box-shadow: 0px 0px 20px #026372 inset;
+		width: 100%;
 	}
 	nav ul li a
 	{
@@ -497,7 +520,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	}
 	.rota
 	{
-		width: 60%;
+		width: 50%;
 		margin: -50px auto;
 		height: auto;
 	}
@@ -513,6 +536,19 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	.contact_form ul 
 	{
    	 width:100%;
+	}
+	#logo
+	{
+		width: 70%;
+		margin: 0 0 5px 0;
+	}
+	#donde, #uso, #como
+	{
+		width: 90%;
+	}
+	.preguntas2 img
+	{
+		width: 50%;
 	}
 }
 

@@ -4,7 +4,6 @@ fecha: 09/2013
 */
 x=$(document);
     x.ready(girarimagenes);
-    x.ready(pop);
     x.ready(menu);
      
      function girarimagenes()
@@ -23,15 +22,4 @@ x=$(document);
         x.slideToggle("slow");
      }
 
- 
-       function pop()
-        {
-            var x=$("#boton");
-                x.click(ver);
-        }   
     
-
-        function ver ()
-        {
-            $("#tarjetas").slideToggle("slow");
-        }
