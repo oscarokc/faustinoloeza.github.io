@@ -234,11 +234,11 @@ nav ul li a
 }
 #menu
 {
-	width: 40px;
-	margin: 8px 0;
-	height: 40px;
+	width: 32px;
+	height: 32px;
 	display: none;
 }
+
 .agranda
 {
 	width: 100%;
@@ -477,14 +477,14 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 {
 	#menu
 	{
-		background:url("../img/menumovil.png") no-repeat;
+		background:url("../img/menumovil.png") no-repeat,rgba(37,188,211,0.9);
 		box-shadow: 0 0 10px black;
 		border-radius: 10%;
 		display: block;
 		margin: 0 auto;
 		position: absolute;
 		right: 0;
-		margin:0px 5px 0 0;
+		margin:5px 5px 0 0;
 		transition:.3s all;
 	}
 	#menu:hover
