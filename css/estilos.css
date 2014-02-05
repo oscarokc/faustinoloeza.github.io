@@ -351,23 +351,23 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 /***********************************************************************************************/
 .roundabout-holder 
 {
-    width:60%;
+    width:55%;
 	height:300px;
 	margin:0 auto;
 
  }
 .roundabout-moveable-item 
 {
-	margin-top: 50px;
-	list-style-type:None;
- 	width: 420px;
-	height: 390px;
+	margin-top: 20px;
+	list-style-type:none;
+ 	width: 400px;
+	height: 320px;
 	cursor: pointer;
  }
 .roundabout-moveable-item img
 {
 	width:95%;
-	border-radius: 10px 10px 10px 10px;
+	border-radius: 10px;
 }
 .roundabout-in-focus 
  {
