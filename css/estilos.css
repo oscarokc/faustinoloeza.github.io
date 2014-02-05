@@ -39,6 +39,7 @@ h2
 	margin: 8px 0px;
 	padding: 0px;
 }
+
 nav ul
 {
 	margin: 0px;
@@ -59,24 +60,20 @@ nav ul li a
 	margin: 0px 1em;
 	text-decoration: none;
 }
-
+ul li
+{
+	list-style-type: none;
+}
 #buscador
 {
 	background:white;
 	height: 40px;
 }
-.banderas
-{
-	display: inline-block;
-	vertical-align: top;
-	width: 3%;
-	margin: 10px 20px;
-}
 #superior
 {
 	margin: 10px 20px;
 	opacity: 0.8;
-	width: 130px;
+	width: 300px;
 }
 #buscador img
 {
@@ -108,7 +105,6 @@ nav ul li a
 	-webkit-transform: scale(1.15);
 
 }
-
 #flecha1{
 	margin-top: 150px;
 	margin-left: 5px;
@@ -163,25 +159,20 @@ nav ul li a
 
 #logom 
 {
-	width: 33%;
+	width: 300px;
 	padding:0px;
 	margin: 0px;
 }
 #logo 
 {
-	width: 25%;
+	width: 250px;
 	padding:0px;
-	margin: 0px 80% 0px 20%;
+	margin: 5px 80% 0px 20%;
 }
 #precio
 {
 	width: 60%;
 	opacity: .9;
-}
-#signo
-{
-	margin-top: 2%;
-	width: 5%;
 }
 #dondeA
 {
@@ -251,10 +242,9 @@ nav ul li a
 .benefis
 {	
 	color: black;
-	width: 45%;
-	margin: 0 auto;
+	width: 60%;
+	margin: 30px auto 5px auto;
 	background: rgb(16,147,182);
-
 }
 .agranda
 {
@@ -277,7 +267,7 @@ nav ul li a
     width:40%;
     list-style-type:none;
 	padding:0px;
-	margin: 0 auto;
+	margin: 50px auto 50px auto;
 
 }
 .contact_form li{
@@ -349,6 +339,13 @@ button.submit:active {
 border: 1px solid #10b0cd;
 box-shadow: 0 0 10px 5px #00fffc inset; 
 }
+
+.banderas
+{
+	display: inline-block;
+	width: 33px;
+	height: 19px;
+}
 /***********************************************************************************************/
 .roundabout-holder 
 {
@@ -390,26 +387,12 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	{
 		background:rgb(18,150,185);
 	}
-	.banderas
-{
-	width: 10%;
-	margin: 10px 0px;
-}
 	#superior
 	{
+		width: 250px;
 		margin: 10px 0px;
 	}
-	#logom 
-	{
-		width: 70%;
-		padding:0px;
-		margin: 0px;
-	}
-	#logo 
-	{
-		width: 50%;
-		margin: 0 0 22px 0;
-	}
+	
 	#donde,#uso,#como
 	{
 		width: 70%;
@@ -439,6 +422,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	#galeria
 	{
 		height: auto;
+		margin-bottom: 50px;
 	}
 	#flecha,#flecha1
 	{
@@ -452,10 +436,6 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	#cuatro
 	{
 		margin-top: 10px;
-	}
-	#galeria
-	{
-		margin-bottom: 75px;
 	}
 	#uno,#dos,#tres
 	{
@@ -488,41 +468,45 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	{
     	width:100%;
 	}
+	.benefis
+	{
+		width: 90%;
+		margin: 30px auto 50px auto;
+		border: 1px solid black;
+	}
 }
 
 @media screen and (max-width: 400px)
 {
 	#menu
 	{
-		background:url("../img/menumovil.png") no-repeat,rgba(37,188,211,0.9);
-		box-shadow: 0 0 10px black;
+		background:url("../img/menumovil.png");
 		border-radius: 10%;
 		display: block;
 		margin: 0 auto;
 		position: absolute;
 		right: 0;
 		margin:5px 5px 0 0;
-		transition:.3s all;
+		transition:.2s all;
 	}
 	#menu:hover
 	{
-		-webkit-transform: scale(1.2,1.2);
+		box-shadow: 0 0 10px black;
+		-webkit-transform: scale(1.1,1.1);
 	}
-	nav ul li
+	header nav ul li
 	{
-		border: 1px solid #1e99ac;
-		margin: 0;	
-		background: rgba(37,188,211,0.9);
-		padding: 7px;
-		box-shadow: 0px 0px 20px rgb(6,129,48) inset;
-		-webkit-box-shadow: 0px 0px 20px #026372 inset;
-		width: 100%;
+		border: 1px solid black;
+		margin: .3px;	
+		background: background: rgb(16,147,182);
+		padding: 7px;	
+		width: 94%;
 	}
-	nav ul li a
+	header nav ul li a
 	{
 		margin: 0;
 	}
-	nav ul
+	header nav ul
 	{
 		display: none;
 	}
@@ -542,24 +526,11 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 		margin: -50px auto;
 		height: auto;
 	}
-	#galeria
-	{
-		margin-bottom: 100px;
-	}
-	#signo
-	{
-		margin-top: 6%;
-		width: 15%;
-	}
 	.contact_form ul 
 	{
    	 width:100%;
 	}
-	#logo
-	{
-		width: 70%;
-		margin: 0 0 5px 0;
-	}
+	
 	#donde, #uso, #como
 	{
 		width: 90%;
@@ -567,6 +538,26 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	.preguntas2 img
 	{
 		width: 50%;
+	}
+	#superior
+	{
+		width: 120px;
+	}
+	#logo
+	{
+		
+		width: 200px;
+	}
+	#logom
+	{
+		width: 250px;
+	}
+	h3
+	{
+		margin: 0;
+		padding:0;
+		color: rgb(16,147,182);
+		font-size: 24px;
 	}
 }
 
