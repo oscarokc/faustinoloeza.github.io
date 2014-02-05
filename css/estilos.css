@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Rambla);
+
 body
 {
 	background:url("../img/fondo.png") repeat-x;
@@ -30,8 +31,9 @@ footer
 header
 {
 	background:url("../img/menu.png") no-repeat 50% center;
-	height: 45px;
-	margin-top: 0px;
+	background-size: 800px;
+	height: 37px;
+	margin: 0 auto;
 }
 
 h2 
@@ -356,7 +358,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
  }
 .roundabout-moveable-item 
 {
-	padding-top:50px;
+	margin-top: 50px;
 	list-style-type:None;
  	width: 420px;
 	height: 390px;
@@ -364,8 +366,8 @@ box-shadow: 0 0 10px 5px #00fffc inset;
  }
 .roundabout-moveable-item img
 {
-		width:100%;
-		border-radius: 10px 10px 10px 10px;
+	width:95%;
+	border-radius: 10px 10px 10px 10px;
 }
 .roundabout-in-focus 
  {
@@ -395,7 +397,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	
 	#donde,#uso,#como
 	{
-		width: 70%;
+		width: 60%;
 	}
 	.agranda
 	{
@@ -412,7 +414,6 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	.roundabout-moveable-item 
 	{
 		height: 235px;
-		padding-top: 0px;
 	}
 	
 	nav ul li a
@@ -422,7 +423,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	#galeria
 	{
 		height: auto;
-		margin-bottom: 50px;
+		margin-bottom: 80px;
 	}
 	#flecha,#flecha1
 	{
@@ -430,7 +431,6 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	}
 	#loguito
 	{
-		margin-bottom: 2em;
 		font-size: 20px;
 	}
 	#cuatro
