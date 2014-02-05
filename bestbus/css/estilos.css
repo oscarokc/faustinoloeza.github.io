@@ -23,7 +23,7 @@ h5{
 }
 header
 {
-	background:url("../img/logo.png") no-repeat 0% center,rgba(255,186,2,.9);
+	background:center,rgba(255,186,2,.9);
 	box-shadow: 0px 0px 25px black inset;
 	box-shadow: 0 5px 20px black;
 	background-size: 40%;
