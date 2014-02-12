@@ -76,7 +76,7 @@ nav ul li a
 #superior
 {
 	width: 300px;
-	background:red; 
+	margin:7px 0;
 }
 #buscador img
 {
@@ -89,41 +89,6 @@ nav ul li a
 	margin-top: 10px;
 	margin: 0 auto;
 	width: 70%;
-}
-
-#flecha{
-	margin-top: 150px;
-	margin-right: 5px;	
-	float: right;
-	width: 50px;
-	height: 50px;
-	opacity: .4;
-	background: url(../img/flecha.png) no-repeat;
-	-webkit-transition:.2s all;
-	-moz-transition:.2s all;
-}
-#flecha:hover{
-	opacity: 1;
-	transform: scale(1.2);
-	-webkit-transform: scale(1.15);
-
-}
-#flecha1{
-	margin-top: 150px;
-	margin-left: 5px;
-	float: left;
-	width: 62px;
-	height: 63px;
-	opacity: .4;
-	background: url(../img/flecha1.png) no-repeat;
-	-webkit-transition:.2s all;
-	-moz-transition:.2s all;
-}
-#flecha1:hover{
-	opacity: 1;
-	transform: scale(1.15);
-	-webkit-transform: scale(1.15);
-	-moz-transform: scale(1.15);
 }
 #general
 {
@@ -194,7 +159,6 @@ nav ul li a
 	width: 60%;
 	margin: 40px auto;
 	text-align: left;
-	background: rgba(163,163,163,0.2);
 	display: inline-block;
 	vertical-align: top;
 }

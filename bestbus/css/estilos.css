@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Artifika);
+@import url(http://fonts.googleapis.com/css?family=Rosario);
 body
 {
 	background: rgb(255,233,186) ;
@@ -7,7 +7,7 @@ body
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
-	font-family: 'Artifika', serif;
+	font-family: 'Rosario', sans-serif;
 }
 
 footer
@@ -38,10 +38,17 @@ header h1
 {
 	font-size: 24px;
 }
-
+header img
+{
+	position: relative;
+	top: 0px;
+	right: 20%; 
+}
 nav 
 {
-	margin-top: 65px;
+	position: relative;
+	top:61px;
+
 }
 nav ul
 {
@@ -64,18 +71,17 @@ nav ul li a
 	width: 100%;
 	text-decoration: none;
 }
-
-#autobus
-{
-	width: 100%;
-}
 .contenido
 {
 	background: rgb(252,189,19);
 	width: 100%;
 	min-width: 280px;
+	top: 60px;
 }
-
+#primero
+{
+		margin-top: 65px;
+}
 .contenido p,h2
 {
 	margin: 0;
@@ -100,14 +106,13 @@ nav ul li a
 		display: inline-block;
 		margin: 0 auto;
 	}
-
 }
 
 @media screen and (min-width: 1000px)
 {
 	.contenido
 	{
-		width: 60%;
+		width: 100%;
 		margin: 0 auto;
 	}
 
