@@ -209,8 +209,15 @@ nav ul li a
 {	
 	color: black;
 	width: 60%;
-	margin: 30px auto 5px auto;
-	background: rgb(16,147,182);
+	margin: 60px auto 5px auto;
+	background: rgb(16,147,182);	
+}
+.benefis p
+{
+	text-align: left; 
+	padding: 1em;
+	color: white;
+	font-family: font-family: 'Rambla', sans-serif;
 }
 .agranda
 {
