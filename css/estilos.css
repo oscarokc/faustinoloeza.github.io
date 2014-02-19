@@ -1,10 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Rambla);
+@import url(http://fonts.googleapis.com/css?family=Nova+Square);
+@import url(http://fonts.googleapis.com/css?family=Bad+Script);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 body
 {
 	background:url("../img/fondo.png") repeat-x;
 	color: rgba(255,255,255,1);
-	font-family: 'Rambla', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	margin: 0 auto;
 	padding: 0;
@@ -14,7 +17,7 @@ body
 {
 	background:url("../img/fondo2.png") repeat-x;
 	color: rgba(255,255,255,1);
-	font-family: 'Rambla', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	margin: 0 auto;
 	padding: 0;
@@ -191,9 +194,10 @@ nav ul li a
 	background: rgb(16,147,182);
 	padding: 8px;
 	box-shadow: 0 0 20px rgb(3,94,129) inset;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: normal;
-	font-family: 'Rambla', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
 	transition:.4s all;
 }
 .usoletra:hover
@@ -208,7 +212,7 @@ nav ul li a
 {
 	font-weight: normal;
 	font-size: 18px;
-	font-family: 'Rambla', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	padding: 0 1em;
 	transition:.4s all;
 	-webkit-transition:.4s all;
@@ -235,7 +239,7 @@ nav ul li a
 	text-align: left; 
 	padding: .5em 1em;
 	color: white;
-	font-family: font-family: 'Rambla', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .agranda
 {
@@ -375,7 +379,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
  }
  /***********************************************************************************************/
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 760px)
 
 
 {
