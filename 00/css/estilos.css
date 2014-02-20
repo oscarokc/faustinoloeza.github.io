@@ -1,0 +1,17 @@
+body
+{
+	background: red;
+}
+header
+{
+	background: white;
+	height: 63px;
+	top: 0px;
+	position: fixed;
+	left: 0;
+	width: 100%;
+}
+header img
+{
+	position: relative;
+}
