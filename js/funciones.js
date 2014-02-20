@@ -3,8 +3,9 @@ autor: Faustino Loeza Perez
 fecha: 09/2013
 */
 x=$(document);
-    x.ready(girarimagenes);
     x.ready(menu);
+    x.ready(girarimagenes);
+  
      
      function girarimagenes()
      {
