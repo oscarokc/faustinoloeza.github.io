@@ -130,15 +130,36 @@ nav ul li a
 	cursor: pointer;
 	width: 22%;
 }
-
+.agranda
+{
+	transition:.5s all;
+	-webkit-transition:.1s all;
+}
+.agranda:active
+{
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
 #logom 
 {
 	width: 300px;
 	padding:0px;
 	margin: 0px;
+	transition:.5s all;
+	-webkit-transition:.3s all;
+}
+#logom:hover
+{
+	-webkit-transform:translate(30px);
+}
+#logo:hover
+{
+	-webkit-transform:translate(30px);
 }
 #logo 
 {
+	transition:.5s all;
+	-webkit-transition:.3s all;
 	width: 250px;
 	padding:0px;
 }
@@ -257,10 +278,21 @@ nav ul li a
     margin: 0 auto;
 
 }
+.formadeuso
+{
+	width: 37%;
+	transition:.5s all;
+	-webkit-transition:.5s all;
+}
+.formadeuso:hover
+{
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+}
 #monedas
-	{
-		width: 10%;
-	}
+{
+	width: 10%;
+}
 /*--- estilos para los ul y li del formulario ---*/
 .contact_form ul {
     width:40%;
