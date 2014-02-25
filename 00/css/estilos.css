@@ -72,6 +72,10 @@ header img
 	{
 		background: red;
 	}
+	#autobus img
+	{
+		width: 10%;
+	}
 }
 @media screen and (min-width: 768px)
 {
