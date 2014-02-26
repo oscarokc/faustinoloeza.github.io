@@ -54,5 +54,18 @@
 	<footer>
 		<h5>Cancun Quintana Roo. Bestbus</h5>
 	</footer>
+	<script src="js/jquery.js"></script>
+	<script src="js/skrollr.js"></script>
+	<script type="text/javascript">
+	var s = skrollr.init({
+		edgeStrategy: 'set',
+		easing: {
+			WTF: Math.random,
+			inverted: function(p) {
+				return 1-p;
+			}
+		}
+	});
+	</script>
 </body>
 </html>
