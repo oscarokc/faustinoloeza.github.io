@@ -11,10 +11,16 @@
 	<header>
 		<figure>
 			<img src="img/bestbus.jpg">
+
 		</figure>
 		<p>Menu</p>
 	</header>
-		<section id="uno" class="cuadro">
+	<div id="uno">
+		<h1>Transporte de Personal.</h1>
+		<div class="mas">Your bones don't break, mine do.</div>
+	</div>
+		<h2>Bestbus</h2>
+		<section class="cuadro">
 			<p class="parrafo"> 
 				Best Bus (antes ETC), es la línea de transporte de personal de Grupo Turicún, empresa líder en el servicio de transporte urbano de pasajeros en nuestra ciudad, con una experiencia mayor a 33 años en el mercado, nacimos con Cancún y hemos crecido a la par de su desarrollo.
 				<img class="carrito"src="img/carrito.png"/>
@@ -26,7 +32,7 @@
 			<div id="autobus">
 				<figure>
 					<figcaption>Empresa lider en el Transporte Urbano.</figcaption>
-					<img src="img/autobus.png">
+					<img id="mueve"src="img/autobus.png">
 				</figure>
 			</div>
 			
@@ -35,7 +41,7 @@
 		<section class="cuadro">
 				<div id="galeria">
 					<figure>
-						<img src="img/autobus.jpg">
+						<img src="img/galeria.png">
 					</figure>
 				</div>
 		</section>
@@ -51,21 +57,30 @@
 		<div class="cliente"></div>
 	</section>
 	<h2>Contacto</h2>
+	<form class="contact_form" action="#" method="post">
+    <ul>
+        <li>
+            <label for="name"></label>
+            <input type="text"  placeholder="Ingres tu Nombre" required />
+        </li>
+        <li>
+            <label for="email"></label>
+            <input type="email" name="email" placeholder="ejemplo@correo.com" required />
+        </li>
+        <li>
+            <label for="Mensaje"></label>
+            <textarea name="Mensaje" required ></textarea>
+        </li>
+        <li>
+         <button class="submit" type="submit">Enviar</button>
+        </li>
+    </ul>
+</form>
 	<footer>
 		<h5>Cancun Quintana Roo. Bestbus</h5>
 	</footer>
 	<script src="js/jquery.js"></script>
 	<script src="js/skrollr.js"></script>
-	<script type="text/javascript">
-	var s = skrollr.init({
-		edgeStrategy: 'set',
-		easing: {
-			WTF: Math.random,
-			inverted: function(p) {
-				return 1-p;
-			}
-		}
-	});
-	</script>
+	<script src"js/main.js"></script>
 </body>
 </html>
