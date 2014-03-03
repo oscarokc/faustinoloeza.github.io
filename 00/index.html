@@ -16,8 +16,20 @@
 		<p>Menu</p>
 	</header>
 	<div id="uno">
-		<h1>Transporte de Personal.</h1>
-		<div class="mas">Your bones don't break, mine do.</div>
+		  <ul class="rslides">
+		    <li>
+		      <img src="img/slide1.jpg" />
+		    </li>
+		    <li>
+		      <img src="img/slide2.jpg" />
+		    </li>
+		    <li>
+		      <img src="img/slide3.jpg" />
+		    </li>
+		    <li>
+		      <img src="img/slide4.jpg" />
+		    </li>
+		  </ul>
 	</div>
 		<h2>Bestbus</h2>
 		<section class="cuadro">
@@ -58,7 +70,7 @@
 	</section>
 	<h2>Contacto</h2>
 	<form class="contact_form" action="#" method="post">
-    <ul>
+    <ul class="contacto">
         <li>
             <label for="name"></label>
             <input type="text"  placeholder="Ingres tu Nombre" required />
@@ -80,7 +92,12 @@
 		<h5>Cancun Quintana Roo. Bestbus</h5>
 	</footer>
 	<script src="js/jquery.js"></script>
-	<script src="js/skrollr.js"></script>
-	<script src"js/main.js"></script>
+	<script src="js/responsiveslides.js"></script>
+	<script >
+		 $(function() {
+   	 		$(".rslides").responsiveSlides();
+  			});
+	</script>
+
 </body>
 </html>

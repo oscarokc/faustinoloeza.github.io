@@ -43,25 +43,31 @@ header img
 	right: 40%;
 	box-shadow: 0 0 30px gray;
 }
-nav ul
+ul
 {
 	margin: 0;
 	padding:0;
 }
-ul li
+#uno li
 {
 	list-style-type: none;
+	text-decoration: none;
 	margin: 0 auto;
-	padding:20px 0;
+	padding:0px 0;
 	width: 100%;
 }
 li input, textarea
 {
 	width: 80%;
 }
+ul li
+{
+	margin-top: 13px;
+}
 .submit
 {
-	background:red;
+	background:#b61c20;
+	box-shadow: 0 2px 5px white inset;
 	border: none;
 	border-radius: 15px;
 	padding: 13px 20px;
@@ -75,9 +81,7 @@ li input, textarea
 }
 #uno
 {
-	height:160px;
-	background: url("../img/bus2.jpg")no-repeat;
-	background-size: 100%;
+	height:auto;
 	margin: 63px 0 0 0;
 	width: 100%;
 }
@@ -144,10 +148,6 @@ li input, textarea
 		display: inline-block;
 		width: 30%;
 	}
-	#uno
-	{
-		height: 300px;
-	}
 	li input, textarea
 	{
 		width: 50%;
@@ -186,8 +186,46 @@ li input, textarea
 		display: inline-block;
 		width: 20%;
 	}
-	#uno
+	.contacto li
 	{
-		height: 600px;
+		max-width: 60%;
+		margin: 0 auto;
+		list-style-type: none;
+		margin-top: 20px;
 	}
 }
+
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
