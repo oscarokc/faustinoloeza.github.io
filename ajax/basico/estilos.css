@@ -1,0 +1,33 @@
+body
+{
+	margin: 0 auto;
+	background: gray;
+}
+
+h1
+{
+	background: #0c73b8;
+	text-align: center;
+}
+
+#midiv
+{
+	background: #e55126;
+}
+nav ul
+{
+	margin:0;
+	padding: 0;
+}
+nav ul li
+{
+	list-style-type: none;
+	display: inline-block;
+	padding:10px;
+	background: #e5a228;
+
+}
+#boton
+{
+	margin:auto 50%;
+}
