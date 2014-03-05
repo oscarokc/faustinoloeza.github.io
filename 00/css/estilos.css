@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
-
+@import url(http://fonts.googleapis.com/css?family=Codystar);
 body
 {
 	background: #ffc631;
@@ -89,10 +89,13 @@ ul li
 }
 #uno figcaption
 {
-	font-size: 28px;
+	font-size: 40px;
+	color: #862829;
+	font-family: 'Codystar', cursive;
+	background: gray;
 	position: absolute;
-	top: 10%;
-	left: 20%;
+	top: 5%;
+	left: 5%;
 }
 #uno
 {
