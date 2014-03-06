@@ -117,7 +117,7 @@ header img
 	font-size: 26px;
 	color: #862829;
 	font-family: 'Lobster', cursive;
-	text-shadow: 5px 5px 7px #ff0000;
+	text-shadow: 5px 5px 7px black;
 	position: absolute;
 	top: 5%;
 	left: 5%;
@@ -207,6 +207,10 @@ header img
 	#menu li
 	{
 		padding: 0 15px
+	}
+	#uno figcaption
+	{
+		font-size: 40px;
 	}
 }
 @media screen and (min-width: 768px)
