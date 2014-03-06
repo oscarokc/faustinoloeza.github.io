@@ -72,6 +72,10 @@ ul li
 	vertical-align: top;
 	padding: 0 0px;
 }
+#menu ul li:hover
+{
+	background-color: red;
+}
 #menu ul li a
 {
 	text-decoration: none;
