@@ -168,9 +168,11 @@ header img
 	width: 60%;
 	max-width:1200px;
 }
-img .mapa
+.mapa
 {
-	margin:0 auto;
+	margin:0 25%;
+	width: 50%;
+	border: 1px solid black;
 }
 .parrafo
 {
