@@ -25,6 +25,10 @@ h2
 	margin: 0;
 	padding: 13px 0px;
 }
+h3
+{
+	width: 100%;
+}
 header
 {
 	background: white;
@@ -159,13 +163,16 @@ header img
 	font-size: 24px;
 	color: red;
 	padding:8px;
-	margin: 0;
+	margin: 0 auto;
 	text-align: center;
+	width: 60%;
+	max-width:1200px;
 }
 .parrafo
 {
 	padding: 8px;
 	margin: 0;
+	text-align:left;
 }
 .parrafo img
 {
@@ -220,6 +227,10 @@ header img
 		display: block;
 		margin: 0 auto;
 	}
+	.parrafo
+	{
+		height: 250px;
+	}
 
 	#autobus,.parrafo
 	{
@@ -237,9 +248,10 @@ header img
 	}
 	.parrafo
 	{
-		width:37%;
+		width:40%;
 		margin: 0 auto;
-		background: rgba(255,255,255,0.3)
+		background: rgba(255,255,255,0.3);
+
 	}
 	.cuadro .cliente
 	{
