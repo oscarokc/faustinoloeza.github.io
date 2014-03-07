@@ -17,6 +17,11 @@ footer
 	text-align: center;
 	padding-top: 23px;
 }
+footer h5
+{
+	width: 300px;
+	margin: 0 auto;
+}
 h2
 {
 	background: #fb6a13;
@@ -73,6 +78,13 @@ ul li
 header img
 {
 	display: none;
+}
+iframe
+{
+	width: 95%;
+	height: 200px;
+	box-shadow: 0px 0px 20px black;
+	border-radius: 30px;
 }
 #menu ul li
 {
@@ -197,7 +209,17 @@ header img
 	height: 200px;
 	width: 90%;
 }
-
+.social
+{
+	display: inline-block;
+	vertical-align: top;
+}
+.social img
+{
+	width: 50px;
+	padding: 0 10px;
+	color: red;
+}
 @media screen and (min-width: 480px)
 {
 	#autobus img
@@ -279,6 +301,12 @@ header img
 	header img
 	{
 		display: block;
+	}
+	iframe
+	{
+		width: 60%;
+		max-width: 600px;
+		height: 300px;
 	}
 }
 
