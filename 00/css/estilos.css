@@ -206,15 +206,21 @@ iframe
 }
 .cliente
 {
-	background: url("../img/empresas.jpg")no-repeat;
-	background-size: 80%;
+	display: inline-block;
 	background-position: center;
 }
-.cuadro .cliente
+.cliente
 {	
-	margin: 10px;
-	height: 200px;
+	margin: 5px;
+	height: 70px;
 	width: 90%;
+	transition:.5s all;
+	-webkit-transition:.5s all;
+}
+.cliente:hover
+{
+	transform:rotate(25deg);
+	-webkit-transform:rotate(15deg) translate(-50px,0);
 }
 .social
 {
