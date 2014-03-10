@@ -1,75 +1,32 @@
 $(function() {
+   	 		$(".rslides").responsiveSlides({
+   	 			auto:true,
+   	 			speed:400,
+   	 		});
+  			});
+	$("a").on("click",function(){
+   if(this.hash){
+      //console.log($(this).attr('href'));
+      $("html body").animate({"scrollTop":$($(this).attr('href')).offset().top-82},1400);
+      return false;
+         }
+});
 
-				var Page = (function() {
+	$(document).ready(function(){
+	   var $win = window;
+	   var $pos = 40;
 
-					var $navArrows = $( '#nav-arrows' ).hide(),
-						$navDots = $( '#nav-dots' ).hide(),
-						$nav = $navDots.children( 'span' ),
-						$shadow = $( '#shadow' ).hide(),
-						slicebox = $( '#sb-slider' ).slicebox( {
-							onReady : function() {
+	   $(window).scroll(function(){
+	      if($(this).scrollTop() > $pos){
+	         $("a.to-top").css("opacity","1");
+	         $("header").css("box-shadow","2px 5px 20px rgb(14,62,146,0.5)");
+	      }else{
+	         $("a.to-top").css("opacity","0");
+	         $("header").css("box-shadow","1px 2px 1px transparent");
+	      }
+	   })
+	});
 
-								$navArrows.show();
-								$navDots.show();
-								$shadow.show();
-
-							},
-							onBeforeChange : function( pos ) {
-
-								$nav.removeClass( 'nav-dot-current' );
-								$nav.eq( pos ).addClass( 'nav-dot-current' );
-
-							}
-						} ),
-						
-						init = function() {
-
-							initEvents();
-							
-						},
-						initEvents = function() {
-
-							// add navigation events
-							$navArrows.children( ':first' ).on( 'click', function() {
-
-								slicebox.next();
-								return false;
-
-							} );
-
-							$navArrows.children( ':last' ).on( 'click', function() {
-								
-								slicebox.previous();
-								return false;
-
-							} );
-
-							$nav.each( function( i ) {
-							
-								$( this ).on( 'click', function( event ) {
-									
-									var $dot = $( this );
-									
-									if( !slicebox.isActive() ) {
-
-										$nav.removeClass( 'nav-dot-current' );
-										$dot.addClass( 'nav-dot-current' );
-									
-									}
-									
-									slicebox.jump( i + 1 );
-									return false;
-								
-								} );
-								
-							} );
-
-						};
-
-						return { init : init };
-
-				})();
-
-				Page.init();
-
-			});
+	$(".to-top").on("click",function(){
+	   $("html, body").animate({scrollTop:0},"fast");
+	});
