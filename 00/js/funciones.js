@@ -1,7 +1,7 @@
 $(function() {
    	 		$(".rslides").responsiveSlides({
    	 			auto:true,
-   	 			speed:400,
+   	 			speed:600,
    	 		});
   			});
 	$("a").on("click",function(){
@@ -18,11 +18,11 @@ $(function() {
 
 	   $(window).scroll(function(){
 	      if($(this).scrollTop() > $pos){
-	         $("a.to-top").css("opacity","1");
+	         $("a.to-top").css("opacity",".5");
 	         $("header").css("box-shadow","2px 5px 20px rgb(14,62,146,0.5)");
 	      }else{
 	         $("a.to-top").css("opacity","0");
-	         $("header").css("box-shadow","1px 2px 1px transparent");
+	         $("header").css("shadow","1px 2px 1px transparent");
 	      }
 	   })
 	});
