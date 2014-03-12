@@ -1,4 +1,4 @@
-$(function() {
+/*$(function() {
    	 		$(".rslides").responsiveSlides({
    	 			auto:true,
    	 			speed:600,
@@ -29,4 +29,4 @@ $(function() {
 
 	$(".to-top").on("click",function(){
 	   $("html, body").animate({scrollTop:0},"fast");
-	});
+	});*/
