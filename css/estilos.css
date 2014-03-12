@@ -95,6 +95,7 @@ nav ul li a
 	margin-top: 10px;
 	margin: 0 auto;
 	width: 70%;
+	z-index: -15;
 }
 #general
 {
@@ -461,7 +462,8 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	}
 	#loguito
 	{
-		font-size: 20px;
+		font-size: 24px;
+		z-index: 5;
 	}
 	#cuatro
 	{
