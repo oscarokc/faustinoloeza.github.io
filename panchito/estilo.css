@@ -10,7 +10,7 @@
 	width: 80%;
 	height: 1000px;
 	float:right;
-	background: gray;
+	background: url("x.jpg")no-repeat,gray;
 	color: black;
 	font-size: 18px;
 	color: white;
