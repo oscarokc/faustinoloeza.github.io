@@ -43,6 +43,10 @@ header
 	left: 0;
 	width: 100%;
 	z-index: 5;
+	box-shadow:2px 5px 20px rgb(14,62,146,0.5);
+	-webkit-box-shadow:2px 5px 20px rgb(14,62,146,0.5);
+	-moz-box-shadow:2px 5px 20px rgb(14,62,146,0.5);
+	-ms-box-shadow:2px 5px 20px rgb(14,62,146,0.5);
 }
 header p
 {
