@@ -130,7 +130,6 @@ iframe
 	font-size: 18px;
 	margin: 0 auto;
 	padding: 16px 0;
-
 	width: 90%;
 	max-width: 1600px;
 
@@ -180,6 +179,7 @@ iframe
 #galeria img
 {
 	width: 100%;
+	margin-bottom: 15px;
 }
 .galeria img
 {
@@ -213,12 +213,21 @@ iframe
 	padding: 8px;
 	margin: 0 0 13px 0;
 	text-align:center;
-	border: 10px solid black;
+	border: 7px solid black;
 	border-radius: 20px;
+	background: rgba(255,255,255,0.3);
+	position: relative;
+	overflow: hidden;
 }
 .parrafo img
 {
 	display: none;	
+}
+.parrafo span
+{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
 }
 .cliente
 {
