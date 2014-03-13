@@ -212,22 +212,19 @@ iframe
 {
 	padding: 8px;
 	margin: 0 0 13px 0;
-	text-align:center;
-	border: 7px solid black;
+	text-align:left;
+	border: 5px solid black;
 	border-radius: 20px;
 	background: rgba(255,255,255,0.3);
 	position: relative;
 	overflow: hidden;
 }
-.parrafo img
-{
-	display: none;	
-}
 .parrafo span
 {
-	text-align: center;
 	font-size: 30px;
 	font-family: 'Lobster', cursive;
+	margin:0 auto;
+	text-align: center;
 }
 .cliente
 {
