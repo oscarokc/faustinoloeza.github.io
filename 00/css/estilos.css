@@ -113,7 +113,7 @@ iframe
 	text-decoration: none;
 	color: black;
 	font-size: 14px;
-	padding: 30px 0px;
+	padding: 34px 1px;
 	font-weight: bold;
 }
 .submit
@@ -128,8 +128,11 @@ iframe
 .cuadro
 {
 	font-size: 18px;
-	margin: 0;
-	padding: 0;
+	margin: 0 auto;
+	padding: 16px 0;
+
+	width: 90%;
+	max-width: 1600px;
 
 }
 
@@ -208,8 +211,10 @@ iframe
 .parrafo
 {
 	padding: 8px;
-	margin: 0;
-	text-align:left;
+	margin: 0 0 13px 0;
+	text-align:center;
+	border: 10px solid black;
+	border-radius: 20px;
 }
 .parrafo img
 {
@@ -304,14 +309,12 @@ iframe
 	}
 	.parrafo
 	{
-		height: 250px;
-	}
-
-	#autobus,.parrafo
-	{
 		display: inline-block;
 		vertical-align: top;
-		margin: 0 auto;
+		margin: 13px auto;
+		width:40%;
+		background: rgba(255,255,255,0.3);
+		height: 250px;
 	}
 	#autobus img
 	{
@@ -320,13 +323,6 @@ iframe
 	#galeria img
 	{
 		width: 70%;
-	}
-	.parrafo
-	{
-		width:40%;
-		margin: 0 auto;
-		background: rgba(255,255,255,0.3);
-
 	}
 	.cuadro .cliente
 	{
