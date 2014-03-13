@@ -214,7 +214,8 @@ iframe
 	text-align:left;
 	border: 5px solid black;
 	border-radius: 20px;
-	background: rgba(255,255,255,0.3);
+	background:rgba(255,255,255,0.3);
+	background-size: 50%;
 	position: relative;
 	overflow: hidden;
 }
