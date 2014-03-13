@@ -293,7 +293,11 @@ iframe
 	}
 	#menu li
 	{
-		padding: 0 15px
+		padding: 0 5px;
+	}
+	#menu
+	{
+		float: right;
 	}
 	#uno figcaption
 	{
