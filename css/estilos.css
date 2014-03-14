@@ -258,6 +258,10 @@ nav ul li a
 	padding: .5em 1em;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	background: rgba(255,255,255,0.1);
 }
 .agranda
 {
@@ -282,6 +286,7 @@ nav ul li a
 .formadeuso
 {
 	width: 37%;
+	max-width: 280px;
 	transition:.5s all;
 	-webkit-transition:.5s all;
 }
@@ -505,6 +510,10 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	{
 		width: 100%;
 	}
+	.benefis p
+	{
+		width: 40%;
+	}
 
 }
 
@@ -618,6 +627,10 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 		width: 90%;
 	}
 	.formadeuso
+	{
+		width: 90%;
+	}
+	.benefis p
 	{
 		width: 90%;
 	}
