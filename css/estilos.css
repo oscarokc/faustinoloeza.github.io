@@ -34,7 +34,6 @@ header
 	height: 38px;
 	margin: 0 auto;
 }
-
 .bene
 {
 	margin: 0px;
@@ -319,7 +318,6 @@ nav ul li a
     list-style-type:none;
 	padding:0px;
 	margin: 0 auto;
-
 }
 .contact_form li{
 	padding:12px; 
@@ -349,12 +347,9 @@ nav ul li a
 .contact_form button {
 	margin-left:90px;
 }
- 
 /*----- estilos visuales de los elementos --------*/
- 
 .contact_form input, .contact_form textarea { 
 	border:1px solid :;
-	box-shadow: 0px 0px 3px #07ac8f, 0 4px 8px #ccc inset;
 	border-radius:4px;
 	color: #0499af;
 	font-size: 12px;
@@ -389,7 +384,6 @@ button.submit:active {
 border: 1px solid #10b0cd;
 box-shadow: 0 0 10px 5px #00fffc inset; 
 }
-
 .banderas
 {
 	display: inline-block;
@@ -404,7 +398,6 @@ box-shadow: 0 0 10px 5px #00fffc inset;
     width:55%;
 	height:300px;
 	margin:0 auto;
-
  }
 .roundabout-moveable-item 
 {
@@ -429,10 +422,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
       display: block;
  }
  /***********************************************************************************************/
-
 @media screen and (max-width: 760px)
-
-
 {
 	header
 	{
@@ -443,7 +433,6 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 		width: 250px;
 		margin: 9px 5px;
 	}
-	
 	#donde,#uso,#como
 	{
 		width: 60%;
@@ -464,7 +453,6 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	{
 		height: 235px;
 	}
-	
 	nav ul li a
 	{
 		margin: 1em .2em;
@@ -489,7 +477,6 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	}
 	#uno,#dos,#tres
 	{
-		
 		min-width: 90%;
 		padding: 0em;
 		margin:0px;
@@ -497,9 +484,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	#tarjetas
 	{
 		width: 100%;
-
 	}
-
 	.preguntas
 	{
 		width: 100%;
@@ -532,9 +517,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	{
 		width: 50%;
 	}
-
 }
-
 @media screen and (max-width: 400px)
 {
 	#menu
@@ -568,6 +551,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	header nav ul
 	{
 		display: none;
+
 	}
 	header
 	{
