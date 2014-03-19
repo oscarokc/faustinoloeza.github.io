@@ -408,6 +408,11 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	margin-top: 20px;
 	max-width: 100px;
 }
+#conta
+{
+	width: 50%;
+	max-width: 200px;
+}
 /***********************************************************************************************/
 .roundabout-holder 
 {
@@ -443,6 +448,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 		height: 350px;
 		max-width: 600px;
 	}
+
  /***********************************************************************************************/
 @media screen and (max-width: 760px)
 {
