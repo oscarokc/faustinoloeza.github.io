@@ -437,6 +437,12 @@ box-shadow: 0 0 10px 5px #00fffc inset;
  {
       display: block;
  }
+ iframe
+	{
+		width: 70%;
+		height: 350px;
+		max-width: 600px;
+	}
  /***********************************************************************************************/
 @media screen and (max-width: 760px)
 {
@@ -532,6 +538,11 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	.lastarjetas img
 	{
 		width: 50%;
+	}
+	iframe
+	{
+		width: 90%;
+		height: 250px;
 	}
 }
 @media screen and (max-width: 400px)
@@ -654,6 +665,11 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	.lastarjetas img
 	{
 		width: 90%;
+	}
+	iframe
+	{
+		width: 90%;
+		height: 250px;
 	}
 }
 
