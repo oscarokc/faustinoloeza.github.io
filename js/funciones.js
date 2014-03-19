@@ -20,7 +20,7 @@ x=$(document);
      function menumagico()
      {
         var x=$("nav ul");
-        x.slideToggle("slow");
+        x.slideToggle("fast");
      }
 
     

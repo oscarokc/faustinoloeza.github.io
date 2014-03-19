@@ -291,17 +291,6 @@ nav ul li a
 	margin: 0;
 	padding: 0;
 }
-.contact_form h2 {
-    background: rgba(165,243,254,0.6);
-    border-radius: 5px;
-    font-family: calibri;
-    font-size: 20px;
-    padding: 5px;
-    text-shadow: 1px 1px 10px black;
-    width: 90%;
-    margin: 0 auto;
-
-}
 .formadeuso
 {
 	width: 37%;
@@ -319,11 +308,17 @@ nav ul li a
 	width: 10%;
 }
 /*--- estilos para los ul y li del formulario ---*/
+.contact_form
+{
+	margin:0;
+	padding:0;
+}
 .contact_form ul {
     width:40%;
+    max-width: 500px;
     list-style-type:none;
 	padding:0px;
-	margin: 50px auto 50px auto;
+	margin: 0 auto;
 
 }
 .contact_form li{
@@ -340,16 +335,16 @@ nav ul li a
     font-weight: bold;
     margin-top: 3px;
     padding: 3px;
-    width: 90px;
+    width: 90%;
 }
 .contact_form input {
 	height:20px; 
-	width:60%; 
+	width:90%; 
 	padding:5px 8px;
 }
 .contact_form textarea {
 	padding:8px; 
-	width:60%;
+	width:90%;
 }
 .contact_form button {
 	margin-left:90px;
@@ -371,7 +366,6 @@ nav ul li a
 }
 .contact_form input:focus, .contact_form textarea:focus {
 	background: #c8f4e9; 
-	padding-right:80px;
 }
 
 /* === Estilos del boton de Envio === */
@@ -593,7 +587,7 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	}
 	.contact_form ul 
 	{
-   	 width:100%;
+   	 	width:90%;
 	}
 	
 	#donde, #uso, #como
