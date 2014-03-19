@@ -402,6 +402,12 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	vertical-align: top;
 	margin: 9px 5px;
 }
+#dus
+{
+	width: 20%;
+	margin-top: 20px;
+	max-width: 100px;
+}
 /***********************************************************************************************/
 .roundabout-holder 
 {
