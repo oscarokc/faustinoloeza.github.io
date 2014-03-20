@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 body
 {
-	background: #ffc631;
+	background: #FFD349;
 	margin: 0 auto;
 	padding:0;
 	text-align: center;
@@ -23,7 +23,7 @@ footer h5
 }
 h2
 {
-	background: #fb6a13;
+	background: #ea573d;
 	font-size: 36px;
 	text-align: center;
 	margin: 0;
@@ -227,17 +227,19 @@ iframe
 	text-align: center;
 }
 .cliente
-{
-	display: inline-block;
-	background-position: center;
-}
-.cliente
 {	
+	display: inline-block;
 	margin: 5px;
-	height: 70px;
+	height: 100%;
 	width: 90%;
 	transition:.5s all;
 	-webkit-transition:.5s all;
+}
+.cliente img
+{
+	width: 100%;
+	max-width: 150px;
+	vertical-align: top;
 }
 .cliente:hover
 {
@@ -255,7 +257,34 @@ iframe
 	padding: 0 10px;
 	color: red;
 }
-
+ol
+{
+	text-align: center;
+	position: relative;
+	margin:20px auto;
+	border-radius: 50px;
+	background: #ffc631;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+	width: 80%;
+	max-width: 300px;
+}
+ol p
+{
+	text-align: center;
+	padding: 0;
+	margin:0;
+	font-size: 24px;
+}
+ol li
+{
+	list-style:inside;
+	padding: 0 5px;
+	margin:0 auto;
+	padding: 3px 0;
+	text-align: left;
+	font-weight: bold;
+}
 .contact_form p
 {
 	font-size: 18px;
