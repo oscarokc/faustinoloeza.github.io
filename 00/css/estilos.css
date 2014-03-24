@@ -185,11 +185,13 @@ iframe
 	width: 100%;
 	transition:.5s all;
 	-webkit-transition:.5s all;
+	-webkit-filter: grayscale(1);
 }
 .galeria img:hover
 {
 	transform:scale(1.1,1.1);
 	-webkit-transform:scale(1.1,1.1);
+	-webkit-filter: grayscale(0);
 }
 #autobus
 {
