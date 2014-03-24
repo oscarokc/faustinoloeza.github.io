@@ -185,13 +185,11 @@ iframe
 	width: 100%;
 	transition:.5s all;
 	-webkit-transition:.5s all;
-	-webkit-filter: grayscale(1);
 }
 .galeria img:hover
 {
 	transform:scale(1.1,1.1);
 	-webkit-transform:scale(1.1,1.1);
-	-webkit-filter: grayscale(0);
 }
 #autobus
 {
@@ -236,17 +234,20 @@ iframe
 	width: 90%;
 	transition:.5s all;
 	-webkit-transition:.5s all;
+	-webkit-filter: grayscale(1);
 }
 .cliente img
 {
 	width: 100%;
 	max-width: 150px;
 	vertical-align: top;
+	
 }
 .cliente:hover
 {
 	transform:rotate(25deg);
-	-webkit-transform:rotate(15deg) translate(-50px,0);
+	-webkit-transform:scale(1.2,1.2);
+	-webkit-filter: grayscale(0);
 }
 .social
 {
