@@ -158,19 +158,19 @@
 
 	<h2 id="carta" >Contacto</h2>
 	<section  class="clientes">
-	<form  class="contact_form" action="#" method="post">
+	<form  class="contact_form" action="enviamail.php" method="post">
     <ul  class="contacto">
         <li>
             <label for="name"></label>
-            <input type="text"  placeholder="Ingres tu Nombre" required />
+            <input type="text" name="name" placeholder="Ingres tu Nombre" required />
         </li>
         <li>
             <label for="email"></label>
             <input type="email" name="email" placeholder="tucorreo@dominio.com" required />
         </li>
         <li>
-            <label for="Mensaje"></label>
-            <textarea name="Mensaje" required ></textarea>
+            <label for="mensaje"></label>
+            <textarea name="mensaje" required ></textarea>
         </li>
         <li>
          <button class="submit" type="submit">Enviar</button>
