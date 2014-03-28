@@ -22,7 +22,7 @@ echo "</p>";
 
 //Envio un email
 
-$aquien = "110300071@ucaribe.edu.mx";
+$aquien = "fausto_zair@hotmail.com";
 $asunto = "Has recibido un correo de BESTBUS";
 $mensajemail = $name." con el email ".$email." te ha enviado un mensaje que dice ".$mensaje ;
 
@@ -34,9 +34,5 @@ echo "Tu email se ha enviado correctamente";
 }else{
 echo "El envio del mail ha fallado";
 }
-
-
-
-
 ?>
 		
