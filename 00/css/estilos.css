@@ -78,6 +78,14 @@ li input, textarea
 {
 	width: 80%;
 }
+li input
+{
+	height: 30px;
+}
+li textarea
+{
+	height: 120px;
+}
 ul li
 {
 	margin-top: 13px;
