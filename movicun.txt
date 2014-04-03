@@ -32,7 +32,7 @@ nuestras unidades.
 *Ubicación del autobus en 
 todo momento.
 *Monitoreo de la velocidad.
-*Cumplimiento de ruta n
+*Cumplimiento de ruta En
 tiempo y forma.
 
 Usuario General.
