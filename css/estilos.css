@@ -283,14 +283,16 @@ nav ul li a
 	padding-top: 0;
 	
 }
-.benefis li:active
+.beneficios
 {
-	display: none;
+		text-align: center;
 }
 .beneficios li
 {
+	font-size: 20px;
 	width:100%;
-	background: rgba(255,1,1,0.5)
+	background: rgba(255,1,1,0.5);
+
 }
 .agranda
 {
