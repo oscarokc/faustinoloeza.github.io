@@ -45,8 +45,43 @@ Usuario Preferente(Estudiantes,Adulto mayor, Personas con discapacidad)
 *Despues de hacer el pago con tu tarjeta, esta queda bloqueada por 10 minutos.
 Esto evita duplicidad en las transacciones electronicas.
 
+				Estudiantes
 La tarjeta Movicun para estudiantes es gratuita, para los alumnos inscritos
 en planes educativos avalados por la SEP.
 *La tarjeta es necesaría para hacer valida la tarifa con descuento.
 *La tarjeta es personal.
-*El tramite es personal(En el caso de menores acudir acompañados de un adulto)
+*El tramite es personal(En el caso de menores acudir acompañados de un adulto).
+
+Requisitos
+*Constancía de estudio o comprobante de inscripción vigente.(Nombre completo, sello oficial de la escuela, ciclo escolar y firma del director)
+*Credencial oficial vigente con fotografía.
+*Vigencía:al inicío del ciclo escolar 
+*Curp
+---Menores de 13 años---
+*Acta de nacimiento.
+*Curp.
+*Acompañado por un familiar directo, mayor de 18 años con identificación oficial.(IFE, pasaporte,cartilla.).
+Constancía de estudios.
+
+				Adulto mayor
+La tarjeta Movicun de adulto mayor(personas mayores de 60 años) es gratuita.
+*La tarjeta es necesaría para hacer valida la tarifa con descuento.
+*La tarjeta es personal.
+*El tramite es personal.
+
+Requisitos
+*CURP
+*Credencial vigente del INSEN
+*Identificación oficial con fotografía.
+*Vigencía: Revalidar cada X años.
+
+				Personas con capacidades diferentes.
+*Es para personas que se encuentren en alguna situación de discapacidad avalada por el DIF.
+
+
+				USO GENERAL
+La tarjeta de uso general, la podras obtener en los puntos de recarga, el costo es de $20.00. si realizas una recarga de $100.00 la tarjeta es gratis.
+Puedes hacer uso de la tarjeta en todos los autobuses de transporte publico Turicun.
+*Llevala siempre que uses el transporte publico.
+*Con esta tarjeta puedes realizar varios pagos a la vez.
+*No tiene vigencia.

@@ -267,7 +267,8 @@ nav ul li a
 	padding: .5em 1em;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
-	width: 50%;
+	width: 90%;
+	max-width: 600px;
 	display: inline-block;
 	vertical-align: top;
 	background: rgba(255,255,255,0.1);
@@ -536,10 +537,6 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	{
 		width: 100%;
 	}
-	.benefis p
-	{
-		width: 40%;
-	}
 	
 	.lastarjetas img
 	{
@@ -661,10 +658,6 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 		width: 90%;
 	}
 	.formadeuso
-	{
-		width: 90%;
-	}
-	.benefis p
 	{
 		width: 90%;
 	}
