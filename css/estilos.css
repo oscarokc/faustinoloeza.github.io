@@ -116,7 +116,7 @@ ul .beneficios
 	margin:0 auto;
 	border: 3px solid white;
 }
-.flip p
+.flip .centro
 {
 	text-align: center;
 }
@@ -125,6 +125,7 @@ ul .beneficios
 	text-align: justify;
 
 }
+
 .flip li
 {
 	text-align: left;
