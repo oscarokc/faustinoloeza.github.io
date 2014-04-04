@@ -65,10 +65,16 @@ nav ul li a
 	margin: 0px 1em;
 	text-decoration: none;
 }
+ul .beneficios
+{
+	margin: 0;
+	padding: 0;
+}
 .beneficios
 {
-	text-align: right;
-	padding: 1em;
+	width: 100%;
+	padding: 0;
+	margin: 0;
 	list-style-position: inside;
 	color: yellow;
 	font-size: 1.5em;
@@ -94,14 +100,50 @@ nav ul li a
 	margin-top: 10px;
 	margin: 0 auto;
 	max-width: 1200px;
-	width: 70%;
-	
+	width: 70%;	
 }
 #general
 {
 	width: 0px;
 	display: none;
 	height: 0px;
+}
+.flip
+{
+	width: 100%;
+	height: auto;
+	max-width: 600px;
+	margin:0 auto;
+	border: 3px solid white;
+}
+.flip p
+{
+	text-align: center;
+}
+.flip .justi
+{
+	text-align: justify;
+
+}
+.flip li
+{
+	text-align: left;
+}
+#gen
+{
+	background: #0093d4;
+}
+#adul
+{
+	background: #329b49;
+}
+#estu
+{
+	background: #ef3f23;
+}
+#emple
+{
+	background: #54c0a0;
 }
 #cuatro
 {
@@ -256,11 +298,7 @@ nav ul li a
 	max-width: 900px;
 	width: 60%;	
 }
-.lastarjetas img
-{
-	width: 50%;
-	padding: 15px 0;
-}
+
 .benefis p
 {
 	text-align: left; 
@@ -283,15 +321,12 @@ nav ul li a
 	padding-top: 0;
 	
 }
-.beneficios
-{
-		text-align: center;
-}
 .beneficios li
 {
-	font-size: 20px;
-	width:100%;
-	background: rgba(255,1,1,0.5);
+	font-size: 22px;
+	text-shadow: 2px 2px black;
+	padding:0px 1em;
+	background: rgba(255,1,1,1);
 
 }
 .agranda
@@ -455,6 +490,12 @@ box-shadow: 0 0 10px 5px #00fffc inset;
  /***********************************************************************************************/
 @media screen and (max-width: 760px)
 {
+	.beneficios li
+	{
+		text-align: left;
+		width: 100%;
+	}
+
 	header
 	{
 		background:rgb(18,150,185);
@@ -538,11 +579,6 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 	.benefis 
 	{
 		width: 100%;
-	}
-	
-	.lastarjetas img
-	{
-		width: 50%;
 	}
 	iframe
 	{
@@ -660,10 +696,6 @@ box-shadow: 0 0 10px 5px #00fffc inset;
 		width: 90%;
 	}
 	.formadeuso
-	{
-		width: 90%;
-	}
-	.lastarjetas img
 	{
 		width: 90%;
 	}
