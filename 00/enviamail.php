@@ -22,7 +22,7 @@ echo "</p>";
 
 //Envio un email
 
-$aquien = "fausto_zair@hotmail.com";
+$aquien = "juan.noya@turicun.com","sistemas@turicun.com";
 $asunto = "Has recibido un correo de BESTBUS";
 $mensajemail = $name." con el email ".$email." te ha enviado un mensaje que dice ".$mensaje ;
 
