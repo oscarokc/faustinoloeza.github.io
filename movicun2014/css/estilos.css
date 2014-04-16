@@ -116,6 +116,13 @@ nav ul li a
       display: block;
  }
 
+ @media screen and (max-width: 760px)
+ {
+ 	.roundabout-holder 
+ 	{
+ 		overflow: hidden;
+ 	}
+ }
  @media screen and (min-width: 760px)
  {
  
@@ -171,7 +178,21 @@ nav ul li a
 		display: block;
 	}
 	.roundabout-holder 
- 	{
- 		height: 300px;
- 	}
+	{
+		width: 95%;
+		max-width: 550px;
+		height:300px;
+		margin:60px auto;
+	 }
+	.roundabout-moveable-item 
+	{
+		list-style-type:none;
+	 	width: 55%;
+		cursor: pointer;
+	 }
+	.roundabout-moveable-item img
+	{
+		width:100%;
+		border-radius: 10px;
+	}
  }
