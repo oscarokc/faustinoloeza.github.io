@@ -116,13 +116,6 @@ nav ul li a
       display: block;
  }
 
- @media screen and (max-width: 760px)
- {
- 	.roundabout-holder 
- 	{
- 		overflow: hidden;
- 	}
- }
  @media screen and (min-width: 760px)
  {
  
