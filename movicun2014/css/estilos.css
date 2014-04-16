@@ -121,6 +121,7 @@ nav ul li a
  	.roundabout-holder 
  	{
  		overflow: hidden;
+ 		background:red;
  	}
  }
  @media screen and (min-width: 760px)
@@ -183,6 +184,7 @@ nav ul li a
 		max-width: 550px;
 		height:300px;
 		margin:60px auto;
+		border: 1px solid black;
 	 }
 	.roundabout-moveable-item 
 	{
