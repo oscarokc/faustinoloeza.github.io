@@ -178,23 +178,4 @@ nav ul li a
 		left: 0;
 		display: block;
 	}
-	.roundabout-holder 
-	{
-		width: 95%;
-		max-width: 550px;
-		height:300px;
-		margin:60px auto;
-		border: 1px solid black;
-	 }
-	.roundabout-moveable-item 
-	{
-		list-style-type:none;
-	 	width: 55%;
-		cursor: pointer;
-	 }
-	.roundabout-moveable-item img
-	{
-		width:100%;
-		border-radius: 10px;
-	}
  }
