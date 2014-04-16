@@ -125,6 +125,7 @@ nav ul li a
  	{
  		overflow: hidden;
  		height: 250px;
+ 		width: 90%;
  	}
  }
  @media screen and (min-width: 760px)
