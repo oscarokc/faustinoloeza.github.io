@@ -99,17 +99,20 @@ nav ul li a
 	max-width: 550px;
 	height:300px;
 	margin:60px auto;
+	border: 1px solid black;
  }
 .roundabout-moveable-item 
 {
 	list-style-type:none;
  	width: 55%;
 	cursor: pointer;
+	border: 2px solid red;
  }
 .roundabout-moveable-item img
 {
 	width:100%;
 	border-radius: 10px;
+	border: 1px solid yellow;
 }
  .roundabout-in-focus .rota
  {
