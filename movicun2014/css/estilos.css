@@ -97,7 +97,7 @@ nav ul li a
 {
 	width: 95%;
 	max-width: 550px;
-	height:250px;
+	height:300px;
 	margin:60px auto;
  }
 .roundabout-moveable-item 
@@ -121,7 +121,6 @@ nav ul li a
  	.roundabout-holder 
  	{
  		overflow: hidden;
- 		height: 250px;
  	}
  }
  @media screen and (min-width: 760px)
@@ -178,4 +177,8 @@ nav ul li a
 		left: 0;
 		display: block;
 	}
+	.roundabout-holder 
+ 	{
+ 		height: 250px;
+ 	}
  }
