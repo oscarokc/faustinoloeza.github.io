@@ -1,0 +1,181 @@
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
+body
+{
+	background:url("../img/fondo.png") repeat-x;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	min-width: 270px;
+}
+input
+{
+	border-radius: 10px;
+	border: 1px solid gray;
+	height: 20px;
+}
+nav ul
+{
+	margin: 0;
+	padding:0;
+	color: black;
+}
+nav ul li
+{
+	background: #e9e6e1;
+	list-style-type: none;
+	padding: 10px 0;
+	height: 20px;
+	border-bottom: 1px solid black;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+#barrasuperior
+{
+	height: 75px;
+	background: #1191b5;
+	position: relative;
+	width: 100%;
+}
+.banderas
+{
+	margin: 0 15px;
+	border: 1px solid black;
+	height: 25px;
+}
+
+#social1
+{
+	position: absolute;
+	width: 250px;
+	margin: 37px 0 0 10%;
+	top: 0;
+	left: 0;
+}
+#social2
+{
+	display: none;
+}
+#menu
+{
+	position: absolute;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 60px;
+	top: 0;
+	right: 0;
+	transition:.5s all;
+	-webkit-transition:.5s all;
+	width: 65px;
+	z-index: 9000;
+}
+#movil
+{
+	width:53px;
+	height: 60px;
+	margin: 0;
+	padding: 0 auto;
+}
+#menu:hover
+{
+	height: 355px;
+	width: 200px;
+}
+.oculta
+{
+	display: none;	
+}
+
+.roundabout-holder 
+{
+	width: 95%;
+	max-width: 550px;
+	height:320px;
+	margin:60px auto;
+ }
+.roundabout-moveable-item 
+{
+	list-style-type:none;
+ 	width: 55%;
+	cursor: pointer;
+ }
+.roundabout-moveable-item img
+{
+	width:100%;
+	border-radius: 10px;
+}
+ .roundabout-in-focus .rota
+ {
+      display: block;
+ }
+
+ @media screen and (max-width: 760px)
+ {
+ 	.roundabout-holder 
+ 	{
+ 		overflow: hidden;
+ 		height: 300px;
+ 	}
+ }
+ @media screen and (min-width: 760px)
+ {
+ 
+ 	#movil
+ 	{
+ 		display: none;
+ 	}
+ 	#menu
+ 	{
+ 		width: 100%;
+ 		max-width: 800px;
+ 		height: 90px;
+ 		margin: 0 auto;
+ 		position: relative;
+ 	}
+ 	#menu:hover
+ 	{
+ 		width: 100%;
+ 		max-width: 800px;
+ 		height: 90px;
+ 	}
+
+ 	nav ul li 
+ 	{
+ 		display: inline-block;
+ 		vertical-align: top;
+ 		margin-right: 10px;
+ 		background: none;
+ 		border: 0;
+ 	}
+	nav ul li a
+	{
+		color:white;
+	}
+ 	#barrasuperior
+	{
+		height: 50px;
+		background: url(../img/menu.png) no-repeat;
+		background-size: 900px 50px;
+		background-position: center;
+	}
+	#social1
+	{
+		display: none;
+	}
+	#social2
+	{
+		position: absolute;
+		width: 150px;
+		margin: 27px 0 0 0;
+		top: 0;
+		left: 0;
+		display: block;
+	}
+ }
