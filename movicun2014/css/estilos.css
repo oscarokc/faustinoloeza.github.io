@@ -97,7 +97,7 @@ nav ul li a
 {
 	width: 95%;
 	max-width: 550px;
-	height:250px;
+	height:300px;
 	margin:60px auto;
 	border: 1px solid black;
  }
@@ -124,6 +124,7 @@ nav ul li a
  	.roundabout-holder 
  	{
  		overflow: hidden;
+ 		height: 250px;
  	}
  }
  @media screen and (min-width: 760px)
