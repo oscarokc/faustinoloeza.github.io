@@ -246,19 +246,11 @@ nav ul li a
 	}
 	#social2 .youtube
 	{
-		width: 28px;
-		position: absolute;
-		top: 0;
-		left: 0;
-		margin: 13px 0 0px 40px;
+		width: 28px;position: absolute;top: 0;left: 0;margin: 13px 0 0px 40px;
 	}
 	#social2 .facebook
 	{
-		width: 28px;
-		position: absolute;
-		top: 0;
-		right:0;
-		margin: 13px 40px 20px 0px;
+		width: 28px;position: absolute;top: 0;right:0;margin: 13px 40px 20px 0px;
 	}
 	#social2 img
 	{
