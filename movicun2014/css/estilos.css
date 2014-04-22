@@ -106,7 +106,6 @@ nav ul li a
 	height:200px;
 	margin:60px auto;
 	margin-top: 0;
-
  }
 .roundabout-moveable-item 
 {
@@ -135,8 +134,8 @@ nav ul li a
  	.roundabout-holder 
  	{
  		overflow: hidden;
- 		height: 250px;
- 		width: 90%;
+ 		height: 170px;
+ 		width: 95%;
  	}
  	#logo
  	{
