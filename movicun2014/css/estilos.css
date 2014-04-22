@@ -111,7 +111,7 @@ nav ul li a
 {
 	list-style-type:none;
  	width: 55%;
- 	height: 150px;
+ 	height: 200px;
 	cursor: pointer;
 	
  }
@@ -134,7 +134,7 @@ nav ul li a
  	.roundabout-holder 
  	{
  		overflow: hidden;
- 		height: 170px;
+ 		height: 240px;
  		width: 95%;
  	}
  	#logo
@@ -199,5 +199,9 @@ nav ul li a
 	.roundabout-moveable-item 
 	{
 		height: 300px;
+	 }
+	 #logo img
+	 {
+	 	margin-bottom: 70px;
 	 }
  }
