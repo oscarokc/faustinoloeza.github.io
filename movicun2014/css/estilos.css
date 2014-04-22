@@ -139,7 +139,7 @@ nav ul li a
 #info img
 {
 	width: 100%;
-	max-width: 250px;
+	max-width: 320px;
 	display: inline-block;
 }
 .roundabout-holder 
@@ -269,4 +269,8 @@ nav ul li a
 	 {
 	 	margin-bottom: 70px;
 	 }
+	 #info img
+	{
+		max-width: 250px;
+	}	
  }
