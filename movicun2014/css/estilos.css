@@ -88,6 +88,12 @@ nav ul li a
 	height: 355px;
 	width: 200px;
 }
+#logo img
+{
+	width: 90%;
+	max-width: 300px;
+	margin-top: 20px;
+}
 .oculta
 {
 	display: none;	
@@ -104,13 +110,17 @@ nav ul li a
 {
 	list-style-type:none;
  	width: 55%;
- 	height: 200px;
+ 	height: 250px;
 	cursor: pointer;
  }
 .roundabout-moveable-item img
 {
 	width:100%;
 	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
 }
  .roundabout-in-focus .rota
  {
@@ -124,6 +134,10 @@ nav ul li a
  		overflow: hidden;
  		height: 250px;
  		width: 90%;
+ 	}
+ 	#logo
+ 	{
+ 		margin-top: 40px;
  	}
  }
  @media screen and (min-width: 760px)
