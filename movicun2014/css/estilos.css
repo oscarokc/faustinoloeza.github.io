@@ -171,6 +171,7 @@ nav ul li a
  		overflow: hidden;
  		height: 240px;
  		width: 95%;
+ 		margin-bottom: 0;
  	}
  	#logo
  	{
