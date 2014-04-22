@@ -94,6 +94,11 @@ nav ul li a
 	max-width: 300px;
 	margin-top: 20px;
 }
+#logo h2
+{
+	margin: 0;
+	padding: 0;
+}
 .oculta
 {
 	display: none;	
@@ -200,7 +205,7 @@ nav ul li a
 	{
 		height: 300px;
 	 }
-	 #logo img
+	 #logo h2
 	 {
 	 	margin-bottom: 70px;
 	 }
