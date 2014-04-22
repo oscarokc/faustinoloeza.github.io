@@ -105,13 +105,16 @@ nav ul li a
 	max-width: 550px;
 	height:200px;
 	margin:60px auto;
+	margin-top: 0;
+
  }
 .roundabout-moveable-item 
 {
 	list-style-type:none;
  	width: 55%;
- 	height: 250px;
+ 	height: 150px;
 	cursor: pointer;
+	
  }
 .roundabout-moveable-item img
 {
@@ -194,4 +197,8 @@ nav ul li a
 		left: 0;
 		display: block;
 	}
+	.roundabout-moveable-item 
+	{
+		height: 300px;
+	 }
  }
