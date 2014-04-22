@@ -49,14 +49,20 @@ nav ul li a
 	border: 1px solid black;
 	height: 25px;
 }
-
-#social1
+#social1 #liston
 {
 	position: absolute;
 	width: 250px;
 	margin: 37px 15% ;
 	top: 0;
 	left: 0;
+	z-index: -.5;
+}
+#social1 .social
+{
+	width: 50px;
+	position: relative;
+	margin-top: 30px;
 }
 #social2
 {
