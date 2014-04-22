@@ -16,6 +16,14 @@ input
 	border: 1px solid gray;
 	height: 20px;
 }
+footer
+{
+	height: 75px;
+	background: #027daa;
+	width: 100%;
+	max-width:960px;
+	margin:0 auto;
+}
 nav ul
 {
 	margin: 0;
