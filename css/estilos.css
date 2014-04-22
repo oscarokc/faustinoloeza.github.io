@@ -125,7 +125,12 @@ ul .beneficios
 	text-align: justify;
 
 }
-
+.gm-style .directions-card-medium-large
+ {
+	height: 71px;
+	padding: 10px 11px;
+	display: none;	
+}
 .flip li
 {
 	text-align: left;
