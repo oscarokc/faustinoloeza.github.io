@@ -49,7 +49,7 @@ nav ul li a
 	border: 1px solid black;
 	height: 25px;
 }
-#social1 #liston
+#social1 
 {
 	position: absolute;
 	width: 250px;
@@ -58,11 +58,26 @@ nav ul li a
 	left: 0;
 	z-index: -.5;
 }
+#social1 img
+{
+	width: 100%;
+	margin: 0;
+}
 #social1 .social
 {
 	width: 50px;
-	position: relative;
-	margin-top: 30px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 20px 0 0px 70px;
+}
+#social1 .socia
+{
+	width: 50px;
+	position: absolute;
+	top: 0;
+	right:0;
+	margin: 20px 70px 20px 0px;
 }
 #social2
 {
