@@ -180,7 +180,7 @@ iframe
 #beneficios
 {
 	background: url(../img/monedas.png)no-repeat;
-	background-position: center 120px;
+	background-position: center ;
 	background-size: 200px 350px;
 	width: 90%;
 	max-width: 800px;
@@ -311,7 +311,7 @@ iframe
 	#beneficios
 	{
 		background-size: 20%;
-		background-position: 60% 90%;
+		background-position: 95% 90%;
 	}
 	#social1
 	{
