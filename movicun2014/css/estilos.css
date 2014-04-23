@@ -27,7 +27,7 @@ footer
 }
 h3
 {
-	font-size: 4.5em;
+	font-size: 3em;
 	font-weight: bold;
 	margin: 60px 0 10px 0;
 	padding: 0;
@@ -35,7 +35,7 @@ h3
 h4
 {
 	color: black;
-	font-size: 2.5em;
+	font-size: 2em;
 	margin: 0;
 }
 h5
@@ -74,6 +74,35 @@ nav ul li a
 	margin: 0 15px;
 	border: 1px solid black;
 	height: 25px;
+}
+#dondeA
+{
+	width:90%;
+	max-width: 800px;
+	background-size:800px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+#dondeA p
+{
+	color: #434343;
+	text-align: left;
+	font-size: 1.2em;
+}
+iframe 
+{
+	border: 10px solid #f25920;
+	width: 90%;
+	max-width: 600px;
+}
+#dondeA img
+{
+	width: 100%;
+	max-width: 800px;
+}
+#DA
+{
+	margin-top: 60px;
 }
 #social1 
 {
@@ -150,9 +179,10 @@ nav ul li a
 	background: url(../img/monedas.png)no-repeat;
 	background-position: center 120px;
 	background-size: 200px 350px;
-	width: 100%;
-	max-width: 960px;
+	width: 90%;
+	max-width: 800px;
 	margin: 0 auto;
+	padding: 0 1em;
 }
 .oculta
 {
@@ -162,10 +192,10 @@ nav ul li a
 {
 	color: #434343;
 	font-size: 1.2em;
-	max-width: 400px;
+	max-width: 600px;
 	margin: 10px auto 60px 150px;
 	text-align: left;
-	width: 90%;
+	width: 100%;
 }
 #info
 {
@@ -231,6 +261,11 @@ nav ul li a
  	h3
  	{
  		margin-top: .5em;
+ 		font-size: 4.5em;
+ 	}
+ 	h4
+ 	{
+ 		font-size: 2.5em;
  	}
  	#movil
  	{
