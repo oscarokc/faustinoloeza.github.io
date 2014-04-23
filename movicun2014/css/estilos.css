@@ -88,6 +88,8 @@ nav ul li a
 	color: #434343;
 	text-align: left;
 	font-size: 1.2em;
+	background: url(../img/vineta.png)no-repeat;
+	padding-left: 20px;
 }
 iframe 
 {
