@@ -18,11 +18,25 @@ input
 }
 footer
 {
+	color: black;
 	height: 75px;
-	background: #027daa;
+	background: url(../img/pie.jpg)repeat-x;
 	width: 100%;
 	max-width:960px;
 	margin:0 auto;
+}
+h3
+{
+	font-size: 4.5em;
+	font-weight: bold;
+	margin: 30px 0 10px 0;
+	padding: 0;
+}
+h4
+{
+	color: black;
+	font-size: 2.5em;
+	margin: 0;
 }
 h5
 {
@@ -131,9 +145,27 @@ nav ul li a
 	margin: 0;
 	padding: 0;
 }
+#beneficios
+{
+	background: url(../img/monedas.png)no-repeat;
+	background-position: center 120px;
+	background-size: 200px 350px;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
 .oculta
 {
 	display: none;	
+}
+.beneficios
+{
+	color: #434343;
+	font-size: 1.2em;
+	max-width: 400px;
+	margin: 10px auto 60px 150px;
+	text-align: left;
+	width: 90%;
 }
 #info
 {
@@ -189,6 +221,10 @@ nav ul li a
  	{
  		margin-top: 40px;
  	}
+ 	.beneficios
+	{
+		margin: 10px auto 60px auto;
+	}
  }
  @media screen and (min-width: 768px)
  {
@@ -230,6 +266,11 @@ nav ul li a
 		background: url(../img/menu.png) no-repeat;
 		background-size: 870px 50px;
 		background-position: center;
+	}
+	#beneficios
+	{
+		background-size: 20%;
+		background-position: 60% 90%;
 	}
 	#social1
 	{
