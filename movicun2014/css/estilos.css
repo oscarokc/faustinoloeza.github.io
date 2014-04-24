@@ -75,6 +75,14 @@ nav ul li a
 	border: 1px solid black;
 	height: 25px;
 }
+#usarla img
+{
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 1em;
+	margin-top: 50px;
+}
 #dondeA
 {
 	width:90%;
