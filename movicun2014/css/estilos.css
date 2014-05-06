@@ -114,14 +114,17 @@ iframe
 	width: 90%;
 	max-width: 600px;
 }
-#dondeA img
+.DAM
+{
+	margin-top: 60px;
+	width: 100%;
+	max-width: 480px;
+}
+.DA
 {
 	width: 100%;
 	max-width: 800px;
-}
-#DA
-{
-	margin-top: 60px;
+	margin-top: 50px;
 }
 #social1 
 {
@@ -278,6 +281,10 @@ iframe
 	{
 		display: none;
 	}
+	.DA
+	{
+		display: none;
+	}
  }
  @media screen and (min-width: 768px)
  {
@@ -374,5 +381,9 @@ iframe
 	.comousar2
 	{
 		display: none;
-	}	
+	}
+	.DAM
+	{
+		display: none;
+	}
  }
