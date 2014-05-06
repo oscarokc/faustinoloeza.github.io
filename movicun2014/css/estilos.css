@@ -75,14 +75,22 @@ nav ul li a
 	border: 1px solid black;
 	height: 25px;
 }
-#usarla img
+
+#comousar1
 {
 	width: 100%;
 	max-width: 800px;
-	margin: 0 auto;
 	padding: 0 1em;
 	margin-top: 50px;
 }
+.comousar2
+{
+	width: 100%;
+	max-width: 320px;
+	padding: 0 1em;
+	margin-top: 50px;
+}
+
 #dondeA
 {
 	width:90%;
@@ -266,6 +274,10 @@ iframe
 	{
 		margin: 10px auto 60px auto;
 	}
+	#comousar1
+	{
+		display: none;
+	}
  }
  @media screen and (min-width: 768px)
  {
@@ -358,5 +370,9 @@ iframe
 	 #info img
 	{
 		max-width: 250px;
+	}
+	.comousar2
+	{
+		display: none;
 	}	
  }
