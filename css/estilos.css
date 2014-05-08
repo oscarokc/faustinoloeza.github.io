@@ -1,713 +1,434 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
 body
 {
 	background:url("../img/fondo.png") repeat-x;
-	color: rgba(255,255,255,1);
+	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
+	min-width: 270px;
 }
-#otro
+input
 {
-	background:url("../img/fondo2.png") repeat-x;
-	color: rgba(255,255,255,1);
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	margin: 0 auto;
-	padding: 0;
-	text-align: center;
+	border-radius: 10px;
+	border: 1px solid gray;
+	height: 25px;
 }
 footer
 {
-	background: rgba(165,243,254,0.6);
-	height: 100%;
 	color: black;
-	border:1px solid rgba(165,243,254,0.6);
+	height: 75px;
+	background: url(../img/pie.jpg)repeat-x;
 	width: 100%;
+	max-width:960px;
+	margin:0 auto;
 }
-header
+h3
 {
-	background:url("../img/menu.png") no-repeat 50% center;
-	background-size: 800px;
-	height: 38px;
+	font-size: 3em;
+	font-weight: bold;
+	margin: 60px 0 10px 0;
+	padding: 0;
+}
+h4
+{
+	color: black;
+	font-size: 2em;
+	margin: 0;
+}
+h5
+{
+	padding: 20px;
+}
+#contacto ul li
+{
+	list-style-type: none;
+	padding: 10px;
 	margin: 0 auto;
 }
-.bene
+ul
 {
-	margin: 0px;
-	padding: 0px;
-	color: rgb(16,147,182);
-	font-size: 24px;
-}
-#precios
-{
-	width: 50%;
+	margin: 0;
+	padding: 0;
 }
 nav ul
 {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding:0;
+	color: black;
 }
 nav ul li
 {
-	display: inline-block;
+	background: #e9e6e1;
 	list-style-type: none;
-	vertical-align: top;
-	margin: 1em 0;
+	padding: 10px 0;
+	height: 20px;
+	border-bottom: 1px solid black;
 }
 nav ul li a
 {
-	color: white;
-	font-size: 1em;
-	font-weight: bold;
-	margin: 0px 1em;
 	text-decoration: none;
-}
-ul .beneficios
-{
-	margin: 0;
-	padding: 0;
-}
-.beneficios
-{
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	list-style-position: inside;
-	color: yellow;
-	font-size: 1.5em;
-}
-#buscador
-{
-	background:white;
-	height: 40px;
-}
-#superior
-{
-	width: 300px;
-	margin:7px 0;
-}
-#buscador img
-{
-	width: 100%;
-	height: 20px;
-}
-#galeria
-{
-	height:400px;
-	margin-top: 10px;
-	margin: 0 auto;
-	max-width: 1200px;
-	width: 70%;	
-}
-#general
-{
-	width: 0px;
-	display: none;
-	height: 0px;
-}
-.flip
-{
-	width: 100%;
-	height: auto;
-	max-width: 600px;
-	margin:0 auto;
-	border: 3px solid white;
-}
-.flip .centro
-{
-	text-align: center;
-}
-.flip .justi
-{
-	text-align: justify;
-
-}
-.gm-style .directions-card-medium-large
-{
-	display: none;
-}
-.flip li
-{
-	text-align: left;
-}
-#gen
-{
-	background: #0093d4;
-}
-#adul
-{
-	background: #329b49;
-}
-#estu
-{
-	background: #ef3f23;
-}
-#emple
-{
-	background: #54c0a0;
-}
-#cuatro
-{
-	width: 100%;
-	max-width: 1200px;
-	margin: 0 auto;
-}
-#tarjetas
-{
 	color: black;
-	display: none;
-	background: rgba(125,125,125,0.5);
-	width: 60%;
-	margin: 0 auto;
-}
-#uno,#dos,#tres
-{
-	display: inline-block;
-	width: 30%;
-	vertical-align: top;
-	padding: 5px;
-	margin: 0px;
-	text-align: left;
-}
-#donde,#uso,#como
-{
-	display: inline-block;
-	vertical-align: top;
-	cursor: pointer;
-	width: 22%;
-}
-.agranda
-{
-	transition:.5s all;
-	-webkit-transition:.1s all;
-}
-.agranda:active
-{
-	-webkit-transform:rotate(360deg);
-	transform:rotate(360deg);
-}
-#logom 
-{
-	width: 300px;
-	padding:0px;
-	margin: 0px;
-	transition:.5s all;
-	-webkit-transition:.3s all;
-}
-#logom:hover
-{
-	-webkit-transform:translate(30px);
-}
-#logo:hover
-{
-	-webkit-transform:translate(30px);
-}
-#logo 
-{
-	transition:.5s all;
-	-webkit-transition:.3s all;
-	width: 250px;
-	padding:0px;
-}
-#monedas
-{
-	transition:.3s all;
-	-webkit-transition:.3s all;
-}
-#monedas:hover
-{
-	transform:scale(1.1,1.1);
-	-webkit-transform:scale(1.1,1.1);
-}
-#precio
-{
-	width: 60%;
-	opacity: .9;
-}
-#dondeA
-{
-	width: 70%;
-	opacity: .9;
-}
-#pasos
-{
-	width: 70%;
-	opacity: .9;
-}
-.preguntas
-{
-	color: black;
-	padding:0px;
-	width: 60%;
-	max-width: 900px;
-	margin: 0px auto;
-	text-align: left;
-	display: inline-block;
-	vertical-align: top;
-}
-.prueba
-{
-	width: 94%;
-	display: inline-block;
-	vertical-align: top;
-	margin: 0px auto;
-}
-.usoletra
-{
-	color: white;
-	background: rgb(16,147,182);
-	padding: 8px;
-	box-shadow: 0 0 20px rgb(3,94,129) inset;
-	font-size: 20px;
-	font-weight: normal;
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-	transition:.4s all;
-}
-.usoletra:hover
-{
-	transform:scale(1,1.2);
-	-webkit-transform:scale(1.1,1.25);
-	-ms-transform:scale(1.1,1.25);
-	-moz-transform:scale(1.1,1.25);
-	box-shadow: 0 5px 5px black;
-}
-.preguntas p
-{
-	font-weight: normal;
 	font-size: 18px;
-	font-family: 'Open Sans', sans-serif;
-	padding: 0 1em;
-	transition:.4s all;
-	-webkit-transition:.4s all;
 }
-.rota
-{
-	display: none;
-	margin: -60px -10px;
-}
-#menu
-{
-	width: 32px;
-	height: 32px;
-	display: none;
-}
-.benefis
-{	
-	background: rgb(16,147,182);
-	margin: 7px auto 0px auto;
-	max-width: 900px;
-	width: 60%;	
-}
-
-.benefis p
-{
-	text-align: left; 
-	padding: .5em 1em;
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-	width: 90%;
-	max-width: 600px;
-	display: inline-block;
-	vertical-align: top;
-	background: rgba(255,255,255,0.1);
-	margin-bottom: 0;
-}
-.benefis li
-{
-	background: rgba(255,255,255,0.1);
-	max-width: 100%;
-	margin: 0 auto;
-	width: 80%;
-	padding-top: 0;
-	
-}
-.beneficios li
-{
-	font-size: 22px;
-	text-shadow: 2px 2px black;
-	padding:0px 1em;
-	background: rgba(255,1,1,1);
-
-}
-.agranda
+textarea
 {
 	width: 100%;
+	max-width: 400px;
+	height: 300px;
+	background: rgba(169, 169, 169,.3);
+	padding-left: 10px;
 }
-.comodonde
+#barrasuperior
 {
-	margin: 0;
-	padding: 0;
-}
-.formadeuso
-{
-	width: 37%;
-	max-width: 280px;
-	transition:.5s all;
-	-webkit-transition:.5s all;
-}
-.formadeuso:hover
-{
-	transform:rotate(360deg);
-	-webkit-transform:rotate(360deg);
-}
-#monedas
-{
-	width: 10%;
-}
-/*--- estilos para los ul y li del formulario ---*/
-.contact_form
-{
-	margin:0;
-	padding:0;
-}
-.contact_form ul {
-    width:40%;
-    max-width: 500px;
-    list-style-type:none;
-	padding:0px;
-	margin: 0 auto;
-}
-.contact_form li{
-	padding:12px; 
-	border-bottom:1px solid #eee;
-	position:relative;
-} 
-.contact_form label {
-    color: #555555;
-    display: inline-block;
-    float: left;
-    font-family: calibri;
-    font-size: 13px;
-    font-weight: bold;
-    margin-top: 3px;
-    padding: 3px;
-    width: 90%;
-}
-.contact_form input {
-	height:20px; 
-	width:90%; 
-	padding:5px 8px;
-}
-.contact_form textarea {
-	padding:8px; 
-	width:90%;
-}
-.contact_form button {
-	margin-left:90px;
-}
-/*----- estilos visuales de los elementos --------*/
-.contact_form input, .contact_form textarea { 
-	border:1px solid :;
-	border-radius:4px;
-	color: #0499af;
-	font-size: 12px;
-	padding-right:30px;
-	-moz-transition: padding .25s; 
-	-webkit-transition: padding .25s; 
-	-o-transition: padding .25s;
-	transition: padding .25s;
-}
-.contact_form input:focus, .contact_form textarea:focus {
-	background: #c8f4e9; 
-}
-
-/* === Estilos del boton de Envio === */
-button.submit {
-    padding: 9px 17px;
-   font-family: Helvetica,calibri, Arial, sans-serif;
-   font-weight: bold;
-   line-height: 1;
-   color: #10b0cd;
-   border: none;
-   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
-   border-radius: 10px;
-   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-}
-button.submit:hover {
-opacity:.55;
-cursor: pointer; 
-color: #00fffc;
-}
-button.submit:active {
-border: 1px solid #10b0cd;
-box-shadow: 0 0 10px 5px #00fffc inset; 
+	height: 75px;
+	background: #1191b5;
+	position: relative;
+	width: 100%;
 }
 .banderas
 {
-	display: inline-block;
-	width: 33px;
-	height: 19px;
-	vertical-align: top;
-	margin: 9px 5px;
+	margin: 0 15px;
+	border: 1px solid black;
+	height: 25px;
 }
-#dus
+
+#comousar1
 {
-	width: 20%;
+	width: 100%;
+	max-width: 800px;
+	padding:0;
+	margin:50px auto 0 auto;
+}
+.comousar2
+{
+	width: 100%;
+	max-width: 320px;
+	padding: 0 1em;
+	margin-top: 50px;
+}
+
+#dondeA
+{
+	width:90%;
+	max-width: 800px;
+	background-size:800px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+#dondeA p
+{
+	color: #434343;
+	text-align: left;
+	font-size: 1.2em;
+	background: url(../img/vineta.png)no-repeat;
+	padding-left: 20px;
+	max-width:500px;
+	margin:40px  auto;
+}
+iframe 
+{
+	border: 10px solid #f25920;
+	width: 90%;
+	max-width: 600px;
+}
+.DAM
+{
+	margin-top: 60px;
+	width: 100%;
+	max-width: 480px;
+}
+.DA
+{
+	width: 100%;
+	max-width: 800px;
+	margin-top: 50px;
+}
+#social1 
+{
+	position: absolute;
+	width: 250px;
+	margin: 37px 15% ;
+	top: 0;
+	left: 0;
+}
+#social1 img
+{
+	width: 100%;
+	margin: 0;
+}
+#social1 .youtube
+{
+	width: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 20px 0 0px 70px;
+}
+#social1 .facebook
+{
+	width: 50px;
+	position: absolute;
+	top: 0;
+	right:0;
+	margin: 20px 70px 20px 0px;
+}
+#social2
+{
+	display: none;
+}
+#menu
+{
+	position: absolute;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 60px;
+	top: 0;
+	right: 0;
+	transition:.5s all;
+	-webkit-transition:.5s all;
+	width: 65px;
+	z-index: 9000;
+}
+#movil
+{
+	width:53px;
+	height: 60px;
+	margin: 0;
+	padding: 0 auto;
+}
+#menu:hover
+{
+	height: 355px;
+	width: 200px;
+}
+#logo img
+{
+	width: 90%;
+	max-width: 300px;
 	margin-top: 20px;
-	max-width: 100px;
 }
-#conta
+#logo h2
 {
-	width: 50%;
-	max-width: 200px;
+	margin: 0;
+	padding: 0;
 }
-/***********************************************************************************************/
+#precios img
+{
+	max-width: 100%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+#beneficios
+{
+	background: url(../img/monedas.png)no-repeat;
+	background-position: center ;
+	background-size: 200px 350px;
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+#contacto
+{
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+#contacto input
+{
+	background: rgba(204,204,204,.3);
+	box-shadow: 0px 1px 10px black inset;
+	border-radius: 5px;
+	width: 100%;
+	padding-left: 10px;
+	max-width: 400px;
+	height: 33px;
+}
+.oculta
+{
+	display: none;	
+}
+.beneficios
+{
+	color: #434343;
+	font-size: 1.2em;
+	max-width: 600px;
+	margin: 10px auto 60px 150px;
+	text-align: left;
+	width: 100%;
+}
+#info
+{
+	max-width: 960px;
+	margin: 0 auto;
+}
+#info img
+{
+	width: 100%;
+	max-width: 320px;
+	display: inline-block;
+}
 .roundabout-holder 
 {
-    width:55%;
-	height:300px;
-	margin:0 auto;
+	width: 95%;
+	max-width: 550px;
+	height:200px;
+	margin:60px auto;
+	margin-top: 0;
  }
 .roundabout-moveable-item 
 {
-	margin-top: 20px;
 	list-style-type:none;
- 	width: 400px;
-	height: 320px;
+ 	width: 55%;
+ 	height: 200px;
 	cursor: pointer;
+	
  }
 .roundabout-moveable-item img
 {
-	width:95%;
+	width:100%;
 	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
 }
-.roundabout-in-focus 
- {
-      cursor: auto;
-      color: black;
- }
  .roundabout-in-focus .rota
  {
       display: block;
  }
- iframe
-	{
-		width: 70%;
-		height: 350px;
-		max-width: 600px;
-	}
 
- /***********************************************************************************************/
-@media screen and (max-width: 760px)
-{
-	.beneficios li
+ @media screen and (max-width: 768px)
+ {
+ 	.roundabout-holder 
+ 	{
+ 		overflow: hidden;
+ 		height: 240px;
+ 		width: 95%;
+ 		margin-bottom: 0;
+ 	}
+ 	#logo
+ 	{
+ 		margin-top: 40px;
+ 	}
+ 	.beneficios
 	{
-		text-align: left;
-		width: 100%;
+		margin: 10px auto 60px auto;
 	}
+	#comousar1
+	{
+		display: none;
+	}
+	.DA
+	{
+		display: none;
+	}
+ }
+ @media screen and (min-width: 768px)
+ {
+ 	h3
+ 	{
+ 		margin-top: .5em;
+ 		font-size: 4.5em;
+ 	}
+ 	h4
+ 	{
+ 		font-size: 2.5em;
+ 	}
+ 	#movil
+ 	{
+ 		display: none;
+ 	}
+ 	#menu
+ 	{
+ 		width: 100%;
+ 		max-width: 800px;
+ 		height: 90px;
+ 		margin: 0 auto;
+ 		position: relative;
+ 	}
+ 	#menu:hover
+ 	{
+ 		width: 100%;
+ 		max-width: 800px;
+ 		height: 90px;
+ 	}
 
-	header
-	{
-		background:rgb(18,150,185);
-	}
-	#superior
-	{
-		width: 250px;
-		margin: 9px 5px;
-	}
-	#donde,#uso,#como
-	{
-		width: 60%;
-	}
-	.agranda
-	{
-		width: 100%;
-	}
-	.roundabout-holder 
-	{
-		height:180px;
-	 }
-	.roundabout-moveable-item img
-	{
-		width:70%;
-	}
-	.roundabout-moveable-item 
-	{
-		height: 235px;
-	}
+ 	nav ul li 
+ 	{
+ 		display: inline-block;
+ 		vertical-align: top;
+ 		margin-right: 10px;
+ 		background: none;
+ 		border: 0;
+ 	}
 	nav ul li a
 	{
-		margin: 1em .2em;
+		color:white;
 	}
-	#galeria
+ 	#barrasuperior
 	{
-		height: auto;
-		margin-bottom: 80px;
+		height: 50px;
+		background: url(../img/menu.png) no-repeat;
+		background-size: 870px 50px;
+		background-position: center;
 	}
-	#flecha,#flecha1
+	#beneficios
+	{
+		background-size: 20%;
+		background-position: 95% 90%;
+	}
+	#social1
 	{
 		display: none;
 	}
-	#loguito
+	#social2
 	{
-		font-size: 24px;
-		z-index: 5;
-	}
-	#cuatro
-	{
-		margin-top: 10px;
-	}
-	#uno,#dos,#tres
-	{
-		min-width: 90%;
-		padding: 0em;
-		margin:0px;
-	}
-	#tarjetas
-	{
-		width: 100%;
-	}
-	.preguntas
-	{
-		width: 100%;
-		margin: 0;
-	}
-	#nombre,#email,#mensaje
-	{
-		width: 90%;
-	}
-	.rota
-	{
-		width: 70%;
-		margin: -50px auto;
-		height: auto;
-	}
-	.contact_form ul
-	{
-    	width:100%;
-	}
-	.benefis 
-	{
-		width: 100%;
-	}
-	iframe
-	{
-		width: 90%;
-		height: 250px;
-	}
-}
-@media screen and (max-width: 400px)
-{
-	#menu
-	{
-		background:url("../img/menumovil.png");
-		border-radius: 10%;
-		display: block;
-		margin: 0 auto;
 		position: absolute;
-		right: 0;
-		margin:5px 5px 0 0;
-		transition:.2s all;
+		width: 150px;
+		margin: 27px 0 0 0;
+		top: 0;
+		left: 0;
+		display: block;
 	}
-	#menu:hover
+	#social2 .youtube
 	{
-		box-shadow: 0 0 10px black;
-		-webkit-transform: scale(1.1,1.1);
+		width: 28px;position: absolute;top: 0;left: 0;margin: 13px 0 0px 40px;
 	}
-	header nav ul li
+	#social2 .facebook
 	{
-		margin: 0px;
-		background:rgb(16,147,182);
-		border: 1px solid white;
-		padding: 10px 0px;	
-		width: 100%;
+		width: 28px;position: absolute;top: 0;right:0;margin: 13px 40px 20px 0px;
 	}
-	header nav ul li a
-	{
-		margin: 0;
-	}
-	header nav ul
-	{
-		display: none;
-
-	}
-	header
-	{
-		height: 0px;
-		display: none;
-		height: auto;
-	}
-	#otro
-	{
-		background:url("../img/fondo3.png") repeat-x;
-	}
-	.rota
-	{
-		width: 50%;
-		margin: -50px auto;
-		height: auto;
-	}
-	.contact_form ul 
-	{
-   	 	width:90%;
-	}
-	
-	#donde, #uso, #como
-	{
-		width: 90%;
-	}
-	#superior
-	{
-		width: 120px;
-	}
-	#logo
-	{
-		
-		width: 200px;
-	}
-	#logom
-	{
-		width: 250px;
-	}
-	h3
-	{
-		margin: 0;
-		padding:0;
-		color: rgb(16,147,182);
-		font-size: 24px;
-	}
-	.benefis 
+	#social2 img
 	{
 		width: 100%;
-		margin: 22px 0 0 0;
-		font-size: 18px;
-	}
-	.preguntas
-	{
-		margin: 25px 0 0 0;
 	}
 	.roundabout-moveable-item 
 	{
-		width: 250px;
+		height: 300px;
+		width: 328px;
 	 }
-	 .roundabout-moveable-item img
+	 #logo h2
+	 {
+	 	margin-bottom: 70px;
+	 }
+	 #info img
 	{
-		width:100%;
-		border-radius: 10px;
-		margin: 0;
-		padding: 0;
+		max-width: 250px;
 	}
-	#monedas
+	.comousar2
 	{
-		width: 30%;
+		display: none;
 	}
-	#precios
+	.DAM
 	{
-		width: 90%;
+		display: none;
 	}
-	.formadeuso
-	{
-		width: 90%;
-	}
-	iframe
-	{
-		width: 90%;
-		height: 250px;
-	}
-}
-
-
+ }

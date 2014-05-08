@@ -1,55 +1,69 @@
 <!DOCTYPE html>
-<html lang="es">
-	<head>
-		<meta charset="utf-8">
+<html>
+<head>
+	<meta charset="utf-8">
 		<title>Movicun</title>
 		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
-		<link rel="stylesheet"  href="css/estilos.css">
 		<link rel="stylesheet"  href="css/normalize.css">
+		<link rel="stylesheet"  href="css/estilos.css">
 		<!--[if lt IE 9]>
 			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<!endif]-->
-	</head>
-	<body id="otro">
-		<section id="buscador">
-			<div id="menu">
+		</head>
+<body>
+	<header>
+		<div id="barrasuperior">
+		<div id="social1">
+			<img id="liston" src="img/social.png">
+			<a href="http://www.webbizarro.com/"><img class="facebook" src="img/fb.jpg" alt=""></a>
+					<a href="http://webmail.turicun.com/"><img class="youtube" src="img/yt.jpg" alt=""></a>
 		</div>
-			<a href=""><figure class="banderas">
-				<img  src="img/mexico.png">
-			</figure></a>
-			<a href=""><figure class="banderas">
-				<img  src="img/estadosu.png">
-			</figure></a>
-			<input id="superior"type="text" placeholder="Ingresa tu duda">
-		</section>
-		<header>
+		<div id="menu">
+			<div id="social2">
+				<img id="liston" src="img/social.png">
+					<a href="http://www.webbizarro.com/"><img class="facebook" src="img/fb.jpg" alt=""></a>
+					<a href="http://webmail.turicun.com/"><img class="youtube" src="img/yt.jpg" alt=""></a>
+		</div>
+			<img id="movil" src="img/menum.png">
 			<nav>
 				<ul>
-					<li><a href="index.html">INICIO</a></li>
-					<li><a href="beneficios.html">BENEFICIOS</a></li>
-					<li><a href="preguntas.html">DUDAS</a></li>
-					<li><a href="contacto.html">CONTACTO</a></li>
-					<li><a href="tipos.html">TARJETAS</a></li>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="#">Tarjetas</a></li>
+					<li><a href="beneficios.html">Beneficios</a></li>
+					<li><a href="#">Contacto</a></li>
+					<li><a href="#">Ingresa</a></li>
+					<li><input type="text" placeholder=" Dudas..."></li>
+					<li><a href=""><img class="banderas" src="img/eu.png"></a><a href=""><img class="banderas" src="img/mx.png"></a></li>
 				</ul>
 			</nav>
-		</header>
-	<figure>
-		<a href="index.html"><img id="logo" src="img/logo.png"></a>
-		<h2 class="bene">Como Recargar</h2>
-	</figure>
-		<section class="benefis">
-			<article>
-				<p>Podrás recargarla en cualquiera
-				de los centros de emisión asi como dentro de las unidades de transporte Turicun.</p>
-				<p>Los montos de recarga seran a partir de:</p>
-			</article>
-			<figure>
-				<img id="precios" src="img/precios.jpg" alt=""/>
-			</figure>
-		</section>
-	<footer><h5>Movicun 2013, Cancún Quintana Roo, México.</h5></footer>
+		</div>
+		</div>
+		<div id="dondeA">
+			<img class="DA" src="img/como-recargar.jpg" alt="">
+			<img class="DAM" src="img/como-recargarm.jpg" alt="">
+				<p>Podrás recargarla en cualquiera de los centros de emisión asi como dentro de las unidades de transporte Turicun.</p>
+				<p>Cada vez que la uses el validador emitirá un boleto que te informara tu saldo.</p>
+				<p>Los montos de recarga seran de:</p>
+				<div id="precios">
+					<img src="img/diez.png" alt="">
+					<img src="img/veinte.jpg" alt="">
+					<img src="img/cincuenta.jpg" alt="">
+					<img src="img/cien.jpg" alt="">
+				</div>
+		</div>
+
+	<footer><h5>Movicun 2014, Cancún Quintana Roo, México.</h5></footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-48396479-1','faustinoloeza.github.io');
+  ga('send', 'pageview');
+</script>
 		<script src="js/jquery.js"></script>
+		<script src="js/jquery.roundabout.js"></script>
+		<script src="js/jquery.roundabout-shapes.js"></script>
 		<script src="js/funciones.js"></script>
-	</body>
+</body>
 </html>
