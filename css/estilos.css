@@ -94,6 +94,10 @@ textarea
 	border: 1px solid black;
 	height: 25px;
 }
+.black
+{
+	color: black;
+}
 
 #comousar1
 {
@@ -178,6 +182,19 @@ iframe
 #social2
 {
 	display: none;
+}
+#registrar 
+{
+	width: 500px;
+	height:10px;
+	border: 1px solid black;
+	background: red;
+	margin: 0 auto;
+	z-index: 5000;
+}
+#registrar ol 
+{
+	display: inline-block;
 }
 #menu
 {
