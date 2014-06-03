@@ -1,0 +1,25 @@
+h1
+{
+  text-align: center;
+}
+#contenedor
+{
+  background: gray;
+  width: 90%;
+  margin: 0 auto;
+}
+.caption
+{
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 25px;
+  background: white;
+}
+
+a
+{
+  padding-left: 25%;
+  font-size: 50px;
+
+}
