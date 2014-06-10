@@ -1,0 +1,46 @@
+body
+{
+	background: blue;
+	margin: 0;
+	padding: 0;
+}
+nav ul
+{
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 90%;
+	max-width: 100px;
+	margin: 10px;
+	padding:20px;
+	background: green;
+}
+#contenedor
+{
+	width: 100%;
+
+
+}
+#inicio
+{
+	width: 100%;
+	max-width: 1280px;
+	height: 50%;
+	height: 100%;
+	min-height: 700px;
+	background: #fc636a;
+	margin: 0 auto;
+}
+#galeria
+{
+	width: 100%;
+	max-width: 1280px;
+	height: 100%;
+	min-height: 700px;
+	background: #63affc;
+	margin: 0 auto;
+}

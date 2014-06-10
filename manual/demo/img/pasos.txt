@@ -1,0 +1,65 @@
+Al entrar a la pagina esta es la primera ventana que se muestra, para poder
+ver el contenido de la pagina se necesita tener usuario y contraseña para ello
+el primer paso es registrarse.
+-Damos click en la palabra registrarse.
+
+
+A continuacion aparece esta ventana, tienes que rellenar los campos con los
+datos que se te piden:
+-Nombre de usuario(Con este podras entrar a la pagina.)
+-Correo electronico(De la empresa)
+-Contraseña(Repitela dos veces)
+-Al completar el formulario con todos los datos proseguimos a dar click en el
+boton de Registrarse.
+Si falla el registro se debe a que algun dato esta mal proporcionado
+
+
+Ya realizado el proceso aparecera un mensaje de Registro completo, ahora puedes
+iniciar sesion.
+Ahora ya con el registro hecho ahora ya tenemos usuario y contraseña
+procedemos a ingresarlos y damos click en acceder.
+
+
+La primera ventana que veras es la de tu perfil donde estan tus datos que
+proporcionaste. En esta seccion podras cambiar tu correo, contraseña entre otros.
+Para poder ver el contenido de la pagina debes dar click en la palabra inicio 
+en la parte superior-izquierda abajo del logo de Turicun.
+Esta seccion contiene las noticias o anuncios mas relevantes de la empresa
+estos aportes son hechos por los administradores de la pagina.
+
+
+En la seccion de PERFIL contiene tus datos de usuario, los cuales puedes actualizar.
+
+
+En la seccion de ACTIVIDAD contiene los comentarios de los usuarios del grupo, es un muro
+tipo facebook donde se ve las publicaciones de los demas usuarios.
+
+En la seccion de TICKETS tu puedes mandar una peticion al area de sistemas sobre algun 
+problema o duda, esto se utilizara para tener evidencia de lo que se pidio.
+Los tickets tendran dos estados:
+-Abierto: Cuando el problema aun no se soluciona
+-Cerrado: Cuando el problema ya se soluciono o se atendio lo que se requeria.
+Crear un ticket es sencillo, das click en crear ticket y se te pedira:
+-Titulo: Es el titulo del problema o duda que reportas.
+-Su mensaje: Aqui explicaras y daras detalles de tu problema o duda.
+-Departamento: Elige el departamento al cual perteneces.
+-Dar click en enviar Ticket para que lo resivan y se guardado.
+
+En la seccion de SERVICIOS TURICUN se encuentran algunas paginas de proyectos en desarrollo 
+del area de sistemas, puedes dar click en la imagen para ver la pagina.
+
+En la seccion de Grupos se encuentra un foro donde podras crear temas de discución, sera una seccion
+para que discutir problemas o manejar proyectos ya que se puede participar y recibir las notificaciones
+de todos los que pertenecen a ese grupo.
+Si te inscribes al grupo recibiras las notificaciones de los demas miembros y al dejar su comentario podras
+enterarte de como va el proyecto o en que terminos quedo para poder darle seguimiento.
+
+Acontinuacion se muestra un grupo donde puedes participar y dar tu opinión, para poder hacerlo tienes
+que unirte al grupo para ello primero visualizamos el nombre del grupo al que queremos unirnos 
+aqui vemos un ejemplo con el grupo llamado Reporte problemas:
+-Damos click encima del nombre del grupo y nos abrira la actividad que hay en el grupo los comentarios
+y opiniones de los demas miembros del grupo. Este grupo puede ser visto por cualquier persona 
+registrada en la pagina pero tambien puede haber grupos prividos donde la informacion solo podra ser
+accedida por los miembros del grupo y estos tendrian que ser aprobados para poder acceder a el grupo.
+Si queremos parcipar damor click en Participar Grupo  y nos uniremos y podremos dejar nuestro 
+comentario, que podra ser leido por los demas integrantes del grupo.
