@@ -6,6 +6,7 @@ body
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
+	min-width: 200px;
 }
 
 h2
@@ -53,12 +54,6 @@ nav ul li a
 	text-align: center;
 	transition:.5s all;
 }
-#inicio img:hover
-{
-	transform:rotate(180deg);
-	-ms-transform:rotate(180deg); /* IE 9 */
-	-webkit-transform:rotate(15deg); /* Opera, Chrome, and Safari */
-}
 .comun
 {
 	padding: 2em;
@@ -77,31 +72,21 @@ nav ul li a
 }
 #servicio
 {
-	background: #014c65;
+	background:#64ff97;
 }
-#servicio ul
+#servicio img
 {
-	margin: 0;
-	padding: 0;
-}
-#servicio ul li
-{
-	width: 200px;
-	height: 200px;
-	background: red;
-	border-radius: 50%;
-	list-style-type: none;
-	vertical-align: top;
+	width: 100%;
+	max-width: 350px;
 	display: inline-block;
-	padding: 1em;
-	margin: 1em auto;
+	vertical-align: top;
 	transition:.5s all;
 	-webkit-transition:.5s all;
+	color: blue;
 }
-#servicio ul li:hover
+#servicio img:hover
 {
-	width: 250px;
-	height: 250px;
+	background: #64adff;
 }
 .comun p,img
 {
@@ -118,7 +103,7 @@ nav ul li a
 }
 #contacto
 {
-	background: url(../img/fondo.png),#eb3700;
+	background: url(../img/fondo.png),#64adff;
 }
 #contacto ul
 {
@@ -131,6 +116,9 @@ nav ul li a
 	max-width: 300px;
 	text-align: center;
 	margin: 0 auto;
+	font-size: 20px;
+	padding: .2em;
+	color: black;
 	list-style-type: none;
 }
 #contacto input
@@ -144,3 +132,27 @@ footer
 	background: gray;
 	padding: 2em;
 }
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0 ;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
