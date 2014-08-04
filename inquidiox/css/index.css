@@ -1,51 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 body
 {
 	color: white;
 	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
-	min-width: 200px;
 }
-
+header
+{
+	position: fixed;
+	width: 100%;
+	background: rgba(40,146,161,0.5);
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+.navegacion
+{
+	margin: auto 0;
+	height: 100px;
+}
+.navegacion img
+{
+	width: 300px;
+	margin-top: 25px;
+}
+.navegacion li
+{
+	display: inline-block;
+	vertical-align: top;
+	list-style-type: none;
+	margin-top:35px; 
+}
+.navegacion li a
+{
+	text-decoration: none;	
+	padding: 1em;
+	color: white;	
+}
 h2
 {
 	margin: 0;
 	padding-top: 1.5em;
 }
-nav ul
-{
-	margin: 0;
-	padding: 0;
-	background: #5b6776;
-	padding: 2em;
-}
-nav ul li
-{
-	list-style-type: none;
-	vertical-align: top;
-	display: inline-block;
-	transition:.5s all;
-	-webkit-transition:.5s all;
-	padding: 1em;	
-}
-nav ul li:hover
-{
-	background: yellow;
-	border-radius: 1em;
-}
-nav ul li a
-{
-	text-decoration: none;
-	padding: 1em;
-	color: white;
-}
 #inicio
 {
-	background:url(../img/fondoagua.jpg)repeat-x;
+	background:url(../img/fondoagua.jpg)repeat-x fixed;
 	background-size: 100% 100%;
-
 }
 #inicio img
 {
@@ -73,7 +78,7 @@ nav ul li a
 }
 #servicio
 {
-	background:#64ff97;
+	background:#64ff97 repeat-x fixed;
 }
 #servicio img
 {
@@ -104,7 +109,11 @@ nav ul li a
 }
 #contacto
 {
-	background: url(../img/fondo.png),#64adff;
+	background: url(../img/fondo.png) fixed,#64adff ;
+}
+#caracteristicas
+{
+	background: #727474;
 }
 #contacto ul
 {
@@ -162,11 +171,19 @@ footer
   display: none;
   width: 100%;
   left: 0;
-  top: 0;
+  top: 75px	;
   }
 
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
+  }
+
+  @media screen and (min-width: 768px)
+  {
+  	body
+  	{
+		
+  	}
   }
