@@ -1,0 +1,44 @@
+/*hoja de estilos*/
+body
+{
+	font-size: 16px;
+	border: 1px solid black;
+	margin: 0  auto;
+	text-align: center;
+	background: gray;
+}
+#menu
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#menu li
+{
+	display: inline-block;
+	padding: 1em;
+	border: 1px solid white;
+	width: 150px;
+	background: yellow;
+}
+#home
+{
+	background: red;
+}
+#servicios
+{
+	background: blue;
+}
+#quienes
+{
+	background: yellow;
+}
+#contacto
+{
+	background: green;
+}
+.comun
+{
+	height: 700px;
+	border: 1px solid white;
+}
